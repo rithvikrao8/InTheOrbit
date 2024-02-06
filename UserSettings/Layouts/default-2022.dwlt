@@ -14,14 +14,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_PixelRect:
     serializedVersion: 2
-    x: 0
+    x: 1920
     y: 43
     width: 1920
     height: 989
   m_ShowMode: 4
-  m_Title: Hierarchy
+  m_Title: Inspector
   m_RootView: {fileID: 7}
-  m_MinSize: {x: 875, y: 321}
+  m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
   m_Maximized: 1
 --- !u!114 &2
@@ -39,16 +39,17 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 309
+    x: 272
     y: 0
-    width: 755
-    height: 560
+    width: 1036
+    height: 633
   m_MinSize: {x: 202, y: 221}
   m_MaxSize: {x: 4002, y: 4021}
-  m_ActualView: {fileID: 16}
+  m_ActualView: {fileID: 17}
   m_Panes:
-  - {fileID: 16}
-  - {fileID: 18}
+  - {fileID: 17}
+  - {fileID: 19}
+  - {fileID: 12}
   m_Selected: 0
   m_LastSelected: 1
 --- !u!114 &3
@@ -75,7 +76,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 100}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 39
+  controlID: 99
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -91,16 +92,16 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 1064
+    x: 1308
     y: 0
-    width: 856
+    width: 612
     height: 939
   m_MinSize: {x: 276, y: 71}
   m_MaxSize: {x: 4001, y: 4021}
-  m_ActualView: {fileID: 14}
+  m_ActualView: {fileID: 15}
   m_Panes:
-  - {fileID: 14}
-  - {fileID: 12}
+  - {fileID: 15}
+  - {fileID: 13}
   m_Selected: 0
   m_LastSelected: 1
 --- !u!114 &5
@@ -120,13 +121,13 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 309
-    height: 560
+    width: 272
+    height: 633
   m_MinSize: {x: 201, y: 221}
   m_MaxSize: {x: 4001, y: 4021}
-  m_ActualView: {fileID: 15}
+  m_ActualView: {fileID: 16}
   m_Panes:
-  - {fileID: 15}
+  - {fileID: 16}
   m_Selected: 0
   m_LastSelected: 0
 --- !u!114 &6
@@ -145,15 +146,15 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
-    y: 560
-    width: 1064
-    height: 379
+    y: 633
+    width: 1308
+    height: 306
   m_MinSize: {x: 231, y: 271}
   m_MaxSize: {x: 10001, y: 10021}
-  m_ActualView: {fileID: 13}
+  m_ActualView: {fileID: 14}
   m_Panes:
-  - {fileID: 13}
-  - {fileID: 17}
+  - {fileID: 14}
+  - {fileID: 18}
   m_Selected: 0
   m_LastSelected: 1
 --- !u!114 &7
@@ -246,12 +247,12 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1064
+    width: 1308
     height: 939
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 40
+  controlID: 42
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -271,13 +272,83 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1064
-    height: 560
+    width: 1308
+    height: 633
   m_MinSize: {x: 200, y: 50}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 41
+  controlID: 43
 --- !u!114 &12
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 12914, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 100, y: 100}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Animator
+    m_Image: {fileID: -1673928668082335149, guid: 0000000000000000d000000000000000, type: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 2192
+    y: 73
+    width: 1034
+    height: 612
+  m_SerializedDataModeController:
+    m_DataMode: 0
+    m_PreferredDataMode: 0
+    m_SupportedDataModes: 
+    isAutomatic: 1
+  m_ViewDataDictionary: {fileID: 0}
+  m_OverlayCanvas:
+    m_LastAppliedPresetName: Default
+    m_SaveData: []
+    m_OverlaysVisible: 1
+  m_ViewTransforms:
+    m_KeySerializationHelper:
+    - {fileID: 8996485216504352602, guid: 21695b2b9f2cf2d44a2dacd7bc700027, type: 2}
+    m_ValueSerializationHelper:
+    - e00: 1
+      e01: 0
+      e02: 0
+      e03: 0
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 0
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+  m_PreviewAnimator: {fileID: 0}
+  m_AnimatorController: {fileID: 9100000, guid: 21695b2b9f2cf2d44a2dacd7bc700027, type: 2}
+  m_BreadCrumbs:
+  - m_Target: {fileID: 8996485216504352602, guid: 21695b2b9f2cf2d44a2dacd7bc700027, type: 2}
+    m_ScrollPosition: {x: 0, y: 0}
+  stateMachineGraph: {fileID: 0}
+  stateMachineGraphGUI: {fileID: 0}
+  blendTreeGraph: {fileID: 0}
+  blendTreeGraphGUI: {fileID: 0}
+  m_AutoLiveLink: 1
+  m_MiniTool: 0
+  m_LockTracker:
+    m_IsLocked: 0
+  m_CurrentEditor: 1
+  m_LayerEditor:
+    m_SelectedLayerIndex: 0
+--- !u!114 &13
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -297,10 +368,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 1787
-    y: 81
-    width: 131
-    height: 909
+    x: 1363
+    y: 73
+    width: 556
+    height: 918
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -314,8 +385,8 @@ MonoBehaviour:
   progressMessageClearTime: -1
   notificationClearTime: -1
   timeSinceLastRotation: -1
-  currentBranchAndRemoteHasUpdate: 1
-  currentTrackingStatusHasUpdate: 1
+  currentBranchAndRemoteHasUpdate: 0
+  currentTrackingStatusHasUpdate: 0
   currentStatusEntriesHasUpdate: 1
   repositoryProgressHasUpdate: 1
   appManagerProgressHasUpdate: 1
@@ -414,8 +485,15 @@ MonoBehaviour:
       assets:
         keys:
         - 00000000000000001000000000000000
+        - fd713fe327c209342ae957ef4e63ff57
+        - a988f191e3e885a41885ea7b1b4fe9ac
+        - 4a846479fc4f2b94aa5ec80c516e33d2
+        - c777a186f17867b4eb90150a6e0c3851
+        - 661654c0409e7d84b899c1b53a0480e5
         - 6ea315d0fd7389c41b19996891e99ae3
+        - 828ea99de71c918459d32ff81bff1f34
         - 3700445ca63a918428e81d6768fd2bfe
+        - 9fc0d4010bbf28b4594072e72b8655ab
         values:
         - path: Assets
           label: Assets
@@ -435,6 +513,97 @@ MonoBehaviour:
             originalPath: 
             indexStatus: 0
             workTreeStatus: 0
+        - path: Assets\Blender Assets
+          label: Blender Assets
+          level: 1
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: Assets\Blender Assets\Blend Files
+          label: Blend Files
+          level: 2
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: Assets\Blender Assets\Concept Art
+          label: Concept Art
+          level: 2
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: Assets\Blender Assets\Materials
+          label: Materials
+          level: 2
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: Assets\Blender Assets\Materials\Main Texture.mat
+          label: Main Texture.mat
+          level: 3
+          isFolder: 0
+          isContainer: 1
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets\Blender Assets\Materials\Main Texture.mat
+            fullPath: C:\Users\jaisa\InTheOrbit\InTheOrbit\Assets\Blender Assets\Materials\Main
+              Texture.mat
+            projectPath: Assets\Blender Assets\Materials\Main Texture.mat
+            originalPath: 
+            indexStatus: 1
+            workTreeStatus: 1
         - path: Assets\Scenes
           label: Scenes
           level: 1
@@ -453,11 +622,29 @@ MonoBehaviour:
             originalPath: 
             indexStatus: 0
             workTreeStatus: 0
+        - path: Assets\Scenes\GameScene.unity
+          label: GameScene.unity
+          level: 2
+          isFolder: 0
+          isContainer: 1
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets\Scenes\GameScene.unity
+            fullPath: C:\Users\jaisa\InTheOrbit\InTheOrbit\Assets\Scenes\GameScene.unity
+            projectPath: Assets\Scenes\GameScene.unity
+            originalPath: 
+            indexStatus: 1
+            workTreeStatus: 1
         - path: Assets\Scenes\Main Menu.unity
           label: Main Menu.unity
           level: 2
           isFolder: 0
-          isContainer: 1
+          isContainer: 0
           isCollapsed: 0
           isHidden: 0
           isActive: 0
@@ -469,17 +656,112 @@ MonoBehaviour:
             fullPath: C:\Users\jaisa\InTheOrbit\InTheOrbit\Assets\Scenes\Main Menu.unity
             projectPath: Assets\Scenes\Main Menu.unity
             originalPath: 
-            indexStatus: 1
-            workTreeStatus: 1
+            indexStatus: 0
+            workTreeStatus: 3
+        - path: Assets\Scenes\SettingsScene.unity
+          label: SettingsScene.unity
+          level: 2
+          isFolder: 0
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets\Scenes\SettingsScene.unity
+            fullPath: C:\Users\jaisa\InTheOrbit\InTheOrbit\Assets\Scenes\SettingsScene.unity
+            projectPath: Assets\Scenes\SettingsScene.unity
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 3
       folders:
         keys:
         - Assets
+        - Assets\Blender Assets
+        - Assets\Blender Assets\Blend Files
+        - Assets\Blender Assets\Concept Art
+        - Assets\Blender Assets\Materials
         - Assets\Scenes
         - UserSettings
+        - UserSettings\Layouts
         values:
         - path: Assets
           label: Assets
           level: 0
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: Assets\Blender Assets
+          label: Blender Assets
+          level: 1
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: Assets\Blender Assets\Blend Files
+          label: Blend Files
+          level: 2
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: Assets\Blender Assets\Concept Art
+          label: Concept Art
+          level: 2
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: Assets\Blender Assets\Materials
+          label: Materials
+          level: 2
           isFolder: 1
           isContainer: 0
           isCollapsed: 0
@@ -516,6 +798,24 @@ MonoBehaviour:
         - path: UserSettings
           label: UserSettings
           level: 0
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: UserSettings\Layouts
+          label: Layouts
+          level: 1
           isFolder: 1
           isContainer: 0
           isCollapsed: 0
@@ -577,6 +877,982 @@ MonoBehaviour:
           originalPath: 
           indexStatus: 0
           workTreeStatus: 0
+      - path: Assets\Blender Assets.meta
+        label: Blender Assets.meta
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Blender Assets.meta
+          fullPath: C:\Users\jaisa\InTheOrbit\InTheOrbit\Assets\Blender Assets.meta
+          projectPath: Assets\Blender Assets.meta
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Blender Assets
+        label: Blender Assets
+        level: 1
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: Assets\Blender Assets\Blend Files.meta
+        label: Blend Files.meta
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Blender Assets\Blend Files.meta
+          fullPath: C:\Users\jaisa\InTheOrbit\InTheOrbit\Assets\Blender Assets\Blend
+            Files.meta
+          projectPath: Assets\Blender Assets\Blend Files.meta
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Blender Assets\Blend Files
+        label: Blend Files
+        level: 2
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: Assets\Blender Assets\Blend Files\Boss 1.blend.meta
+        label: Boss 1.blend.meta
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Blender Assets\Blend Files\Boss 1.blend.meta
+          fullPath: C:\Users\jaisa\InTheOrbit\InTheOrbit\Assets\Blender Assets\Blend
+            Files\Boss 1.blend.meta
+          projectPath: Assets\Blender Assets\Blend Files\Boss 1.blend.meta
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Blender Assets\Blend Files\Bunker.blend.meta
+        label: Bunker.blend.meta
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Blender Assets\Blend Files\Bunker.blend.meta
+          fullPath: C:\Users\jaisa\InTheOrbit\InTheOrbit\Assets\Blender Assets\Blend
+            Files\Bunker.blend.meta
+          projectPath: Assets\Blender Assets\Blend Files\Bunker.blend.meta
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Blender Assets\Blend Files\Jump Animation_Character Black Male.blend.meta
+        label: Jump Animation_Character Black Male.blend.meta
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Blender Assets\Blend Files\Jump Animation_Character Black
+            Male.blend.meta
+          fullPath: C:\Users\jaisa\InTheOrbit\InTheOrbit\Assets\Blender Assets\Blend
+            Files\Jump Animation_Character Black Male.blend.meta
+          projectPath: Assets\Blender Assets\Blend Files\Jump Animation_Character
+            Black Male.blend.meta
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Blender Assets\Blend Files\Jump Animation_Character White Male.blend.meta
+        label: Jump Animation_Character White Male.blend.meta
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Blender Assets\Blend Files\Jump Animation_Character White
+            Male.blend.meta
+          fullPath: C:\Users\jaisa\InTheOrbit\InTheOrbit\Assets\Blender Assets\Blend
+            Files\Jump Animation_Character White Male.blend.meta
+          projectPath: Assets\Blender Assets\Blend Files\Jump Animation_Character
+            White Male.blend.meta
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Blender Assets\Blend Files\Logo.blend.meta
+        label: Logo.blend.meta
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Blender Assets\Blend Files\Logo.blend.meta
+          fullPath: C:\Users\jaisa\InTheOrbit\InTheOrbit\Assets\Blender Assets\Blend
+            Files\Logo.blend.meta
+          projectPath: Assets\Blender Assets\Blend Files\Logo.blend.meta
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Blender Assets\Blend Files\Low Poly Trees.blend.meta
+        label: Low Poly Trees.blend.meta
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Blender Assets\Blend Files\Low Poly Trees.blend.meta
+          fullPath: C:\Users\jaisa\InTheOrbit\InTheOrbit\Assets\Blender Assets\Blend
+            Files\Low Poly Trees.blend.meta
+          projectPath: Assets\Blender Assets\Blend Files\Low Poly Trees.blend.meta
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Blender Assets\Blend Files\Main Character Black Male.blend.meta
+        label: Main Character Black Male.blend.meta
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Blender Assets\Blend Files\Main Character Black Male.blend.meta
+          fullPath: C:\Users\jaisa\InTheOrbit\InTheOrbit\Assets\Blender Assets\Blend
+            Files\Main Character Black Male.blend.meta
+          projectPath: Assets\Blender Assets\Blend Files\Main Character Black Male.blend.meta
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Blender Assets\Blend Files\Main Character White Male.blend.meta
+        label: Main Character White Male.blend.meta
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Blender Assets\Blend Files\Main Character White Male.blend.meta
+          fullPath: C:\Users\jaisa\InTheOrbit\InTheOrbit\Assets\Blender Assets\Blend
+            Files\Main Character White Male.blend.meta
+          projectPath: Assets\Blender Assets\Blend Files\Main Character White Male.blend.meta
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Blender Assets\Blend Files\Main Weapon.blend.meta
+        label: Main Weapon.blend.meta
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Blender Assets\Blend Files\Main Weapon.blend.meta
+          fullPath: C:\Users\jaisa\InTheOrbit\InTheOrbit\Assets\Blender Assets\Blend
+            Files\Main Weapon.blend.meta
+          projectPath: Assets\Blender Assets\Blend Files\Main Weapon.blend.meta
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Blender Assets\Blend Files\Run Animation_Character Black Male.blend.meta
+        label: Run Animation_Character Black Male.blend.meta
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Blender Assets\Blend Files\Run Animation_Character Black Male.blend.meta
+          fullPath: C:\Users\jaisa\InTheOrbit\InTheOrbit\Assets\Blender Assets\Blend
+            Files\Run Animation_Character Black Male.blend.meta
+          projectPath: Assets\Blender Assets\Blend Files\Run Animation_Character
+            Black Male.blend.meta
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Blender Assets\Blend Files\Run Animation_Character White Male.blend.meta
+        label: Run Animation_Character White Male.blend.meta
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Blender Assets\Blend Files\Run Animation_Character White Male.blend.meta
+          fullPath: C:\Users\jaisa\InTheOrbit\InTheOrbit\Assets\Blender Assets\Blend
+            Files\Run Animation_Character White Male.blend.meta
+          projectPath: Assets\Blender Assets\Blend Files\Run Animation_Character
+            White Male.blend.meta
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Blender Assets\Blend Files\Secondary Weapon.blend.meta
+        label: Secondary Weapon.blend.meta
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Blender Assets\Blend Files\Secondary Weapon.blend.meta
+          fullPath: C:\Users\jaisa\InTheOrbit\InTheOrbit\Assets\Blender Assets\Blend
+            Files\Secondary Weapon.blend.meta
+          projectPath: Assets\Blender Assets\Blend Files\Secondary Weapon.blend.meta
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Blender Assets\Blend Files\Slide Animation_Character Black Male.blend.meta
+        label: Slide Animation_Character Black Male.blend.meta
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Blender Assets\Blend Files\Slide Animation_Character Black
+            Male.blend.meta
+          fullPath: C:\Users\jaisa\InTheOrbit\InTheOrbit\Assets\Blender Assets\Blend
+            Files\Slide Animation_Character Black Male.blend.meta
+          projectPath: Assets\Blender Assets\Blend Files\Slide Animation_Character
+            Black Male.blend.meta
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Blender Assets\Blend Files\Slide Animation_Character White Male.blend.meta
+        label: Slide Animation_Character White Male.blend.meta
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Blender Assets\Blend Files\Slide Animation_Character White
+            Male.blend.meta
+          fullPath: C:\Users\jaisa\InTheOrbit\InTheOrbit\Assets\Blender Assets\Blend
+            Files\Slide Animation_Character White Male.blend.meta
+          projectPath: Assets\Blender Assets\Blend Files\Slide Animation_Character
+            White Male.blend.meta
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Blender Assets\Blend Files\SpaceShip.blend.meta
+        label: SpaceShip.blend.meta
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Blender Assets\Blend Files\SpaceShip.blend.meta
+          fullPath: C:\Users\jaisa\InTheOrbit\InTheOrbit\Assets\Blender Assets\Blend
+            Files\SpaceShip.blend.meta
+          projectPath: Assets\Blender Assets\Blend Files\SpaceShip.blend.meta
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Blender Assets\Blend Files\Team Logo.blend.meta
+        label: Team Logo.blend.meta
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Blender Assets\Blend Files\Team Logo.blend.meta
+          fullPath: C:\Users\jaisa\InTheOrbit\InTheOrbit\Assets\Blender Assets\Blend
+            Files\Team Logo.blend.meta
+          projectPath: Assets\Blender Assets\Blend Files\Team Logo.blend.meta
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Blender Assets\Blend Files\Walk Animation_Character Black Male.blend.meta
+        label: Walk Animation_Character Black Male.blend.meta
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Blender Assets\Blend Files\Walk Animation_Character Black
+            Male.blend.meta
+          fullPath: C:\Users\jaisa\InTheOrbit\InTheOrbit\Assets\Blender Assets\Blend
+            Files\Walk Animation_Character Black Male.blend.meta
+          projectPath: Assets\Blender Assets\Blend Files\Walk Animation_Character
+            Black Male.blend.meta
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Blender Assets\Blend Files\Walk Animation_Character White Male.blend.meta
+        label: Walk Animation_Character White Male.blend.meta
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Blender Assets\Blend Files\Walk Animation_Character White
+            Male.blend.meta
+          fullPath: C:\Users\jaisa\InTheOrbit\InTheOrbit\Assets\Blender Assets\Blend
+            Files\Walk Animation_Character White Male.blend.meta
+          projectPath: Assets\Blender Assets\Blend Files\Walk Animation_Character
+            White Male.blend.meta
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Blender Assets\Blend Files\World.blend.meta
+        label: World.blend.meta
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Blender Assets\Blend Files\World.blend.meta
+          fullPath: C:\Users\jaisa\InTheOrbit\InTheOrbit\Assets\Blender Assets\Blend
+            Files\World.blend.meta
+          projectPath: Assets\Blender Assets\Blend Files\World.blend.meta
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Blender Assets\Color Pallete.png.meta
+        label: Color Pallete.png.meta
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Blender Assets\Color Pallete.png.meta
+          fullPath: C:\Users\jaisa\InTheOrbit\InTheOrbit\Assets\Blender Assets\Color
+            Pallete.png.meta
+          projectPath: Assets\Blender Assets\Color Pallete.png.meta
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Blender Assets\Concept Art.meta
+        label: Concept Art.meta
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Blender Assets\Concept Art.meta
+          fullPath: C:\Users\jaisa\InTheOrbit\InTheOrbit\Assets\Blender Assets\Concept
+            Art.meta
+          projectPath: Assets\Blender Assets\Concept Art.meta
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Blender Assets\Concept Art
+        label: Concept Art
+        level: 2
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: Assets\Blender Assets\Concept Art\Concept1 Back.png.meta
+        label: Concept1 Back.png.meta
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Blender Assets\Concept Art\Concept1 Back.png.meta
+          fullPath: C:\Users\jaisa\InTheOrbit\InTheOrbit\Assets\Blender Assets\Concept
+            Art\Concept1 Back.png.meta
+          projectPath: Assets\Blender Assets\Concept Art\Concept1 Back.png.meta
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Blender Assets\Concept Art\Concept1 Front.png.meta
+        label: Concept1 Front.png.meta
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Blender Assets\Concept Art\Concept1 Front.png.meta
+          fullPath: C:\Users\jaisa\InTheOrbit\InTheOrbit\Assets\Blender Assets\Concept
+            Art\Concept1 Front.png.meta
+          projectPath: Assets\Blender Assets\Concept Art\Concept1 Front.png.meta
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Blender Assets\Concept Art\Concept1 Left.png.meta
+        label: Concept1 Left.png.meta
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Blender Assets\Concept Art\Concept1 Left.png.meta
+          fullPath: C:\Users\jaisa\InTheOrbit\InTheOrbit\Assets\Blender Assets\Concept
+            Art\Concept1 Left.png.meta
+          projectPath: Assets\Blender Assets\Concept Art\Concept1 Left.png.meta
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Blender Assets\Concept Art\Concept1 Right.png.meta
+        label: Concept1 Right.png.meta
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Blender Assets\Concept Art\Concept1 Right.png.meta
+          fullPath: C:\Users\jaisa\InTheOrbit\InTheOrbit\Assets\Blender Assets\Concept
+            Art\Concept1 Right.png.meta
+          projectPath: Assets\Blender Assets\Concept Art\Concept1 Right.png.meta
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Blender Assets\Concept Art\Concept1 Top.png.meta
+        label: Concept1 Top.png.meta
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Blender Assets\Concept Art\Concept1 Top.png.meta
+          fullPath: C:\Users\jaisa\InTheOrbit\InTheOrbit\Assets\Blender Assets\Concept
+            Art\Concept1 Top.png.meta
+          projectPath: Assets\Blender Assets\Concept Art\Concept1 Top.png.meta
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Blender Assets\Concept Art\Concept1.png.meta
+        label: Concept1.png.meta
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Blender Assets\Concept Art\Concept1.png.meta
+          fullPath: C:\Users\jaisa\InTheOrbit\InTheOrbit\Assets\Blender Assets\Concept
+            Art\Concept1.png.meta
+          projectPath: Assets\Blender Assets\Concept Art\Concept1.png.meta
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Blender Assets\Concept Art\Logo.png.meta
+        label: Logo.png.meta
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Blender Assets\Concept Art\Logo.png.meta
+          fullPath: C:\Users\jaisa\InTheOrbit\InTheOrbit\Assets\Blender Assets\Concept
+            Art\Logo.png.meta
+          projectPath: Assets\Blender Assets\Concept Art\Logo.png.meta
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Blender Assets\Concept Art\Main Weapon.png.meta
+        label: Main Weapon.png.meta
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Blender Assets\Concept Art\Main Weapon.png.meta
+          fullPath: C:\Users\jaisa\InTheOrbit\InTheOrbit\Assets\Blender Assets\Concept
+            Art\Main Weapon.png.meta
+          projectPath: Assets\Blender Assets\Concept Art\Main Weapon.png.meta
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Blender Assets\Concept Art\Map Concept Art.jpg.meta
+        label: Map Concept Art.jpg.meta
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Blender Assets\Concept Art\Map Concept Art.jpg.meta
+          fullPath: C:\Users\jaisa\InTheOrbit\InTheOrbit\Assets\Blender Assets\Concept
+            Art\Map Concept Art.jpg.meta
+          projectPath: Assets\Blender Assets\Concept Art\Map Concept Art.jpg.meta
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Blender Assets\Concept Art\Map Render 1.png.meta
+        label: Map Render 1.png.meta
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Blender Assets\Concept Art\Map Render 1.png.meta
+          fullPath: C:\Users\jaisa\InTheOrbit\InTheOrbit\Assets\Blender Assets\Concept
+            Art\Map Render 1.png.meta
+          projectPath: Assets\Blender Assets\Concept Art\Map Render 1.png.meta
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Blender Assets\Concept Art\Map Render 2.png.meta
+        label: Map Render 2.png.meta
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Blender Assets\Concept Art\Map Render 2.png.meta
+          fullPath: C:\Users\jaisa\InTheOrbit\InTheOrbit\Assets\Blender Assets\Concept
+            Art\Map Render 2.png.meta
+          projectPath: Assets\Blender Assets\Concept Art\Map Render 2.png.meta
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Blender Assets\Concept Art\Map Render 3.png.meta
+        label: Map Render 3.png.meta
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Blender Assets\Concept Art\Map Render 3.png.meta
+          fullPath: C:\Users\jaisa\InTheOrbit\InTheOrbit\Assets\Blender Assets\Concept
+            Art\Map Render 3.png.meta
+          projectPath: Assets\Blender Assets\Concept Art\Map Render 3.png.meta
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Blender Assets\Concept Art\Map Render 4.png.meta
+        label: Map Render 4.png.meta
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Blender Assets\Concept Art\Map Render 4.png.meta
+          fullPath: C:\Users\jaisa\InTheOrbit\InTheOrbit\Assets\Blender Assets\Concept
+            Art\Map Render 4.png.meta
+          projectPath: Assets\Blender Assets\Concept Art\Map Render 4.png.meta
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Blender Assets\Concept Art\Map Render 5.png.meta
+        label: Map Render 5.png.meta
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Blender Assets\Concept Art\Map Render 5.png.meta
+          fullPath: C:\Users\jaisa\InTheOrbit\InTheOrbit\Assets\Blender Assets\Concept
+            Art\Map Render 5.png.meta
+          projectPath: Assets\Blender Assets\Concept Art\Map Render 5.png.meta
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Blender Assets\Concept Art\Map.png.meta
+        label: Map.png.meta
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Blender Assets\Concept Art\Map.png.meta
+          fullPath: C:\Users\jaisa\InTheOrbit\InTheOrbit\Assets\Blender Assets\Concept
+            Art\Map.png.meta
+          projectPath: Assets\Blender Assets\Concept Art\Map.png.meta
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Blender Assets\Concept Art\Secondary Weapon.png.meta
+        label: Secondary Weapon.png.meta
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Blender Assets\Concept Art\Secondary Weapon.png.meta
+          fullPath: C:\Users\jaisa\InTheOrbit\InTheOrbit\Assets\Blender Assets\Concept
+            Art\Secondary Weapon.png.meta
+          projectPath: Assets\Blender Assets\Concept Art\Secondary Weapon.png.meta
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Blender Assets\Concept Art\SpaceShip Render 1.png.meta
+        label: SpaceShip Render 1.png.meta
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Blender Assets\Concept Art\SpaceShip Render 1.png.meta
+          fullPath: C:\Users\jaisa\InTheOrbit\InTheOrbit\Assets\Blender Assets\Concept
+            Art\SpaceShip Render 1.png.meta
+          projectPath: Assets\Blender Assets\Concept Art\SpaceShip Render 1.png.meta
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Blender Assets\Concept Art\SpaceShip Render 2.png.meta
+        label: SpaceShip Render 2.png.meta
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Blender Assets\Concept Art\SpaceShip Render 2.png.meta
+          fullPath: C:\Users\jaisa\InTheOrbit\InTheOrbit\Assets\Blender Assets\Concept
+            Art\SpaceShip Render 2.png.meta
+          projectPath: Assets\Blender Assets\Concept Art\SpaceShip Render 2.png.meta
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Blender Assets\Concept Art\SpaceShip Render 3.png.meta
+        label: SpaceShip Render 3.png.meta
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Blender Assets\Concept Art\SpaceShip Render 3.png.meta
+          fullPath: C:\Users\jaisa\InTheOrbit\InTheOrbit\Assets\Blender Assets\Concept
+            Art\SpaceShip Render 3.png.meta
+          projectPath: Assets\Blender Assets\Concept Art\SpaceShip Render 3.png.meta
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Blender Assets\Concept Art\Team Logo.png.meta
+        label: Team Logo.png.meta
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Blender Assets\Concept Art\Team Logo.png.meta
+          fullPath: C:\Users\jaisa\InTheOrbit\InTheOrbit\Assets\Blender Assets\Concept
+            Art\Team Logo.png.meta
+          projectPath: Assets\Blender Assets\Concept Art\Team Logo.png.meta
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Blender Assets\desktop.ini.meta
+        label: desktop.ini.meta
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Blender Assets\desktop.ini.meta
+          fullPath: C:\Users\jaisa\InTheOrbit\InTheOrbit\Assets\Blender Assets\desktop.ini.meta
+          projectPath: Assets\Blender Assets\desktop.ini.meta
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Blender Assets\Materials.meta
+        label: Materials.meta
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Blender Assets\Materials.meta
+          fullPath: C:\Users\jaisa\InTheOrbit\InTheOrbit\Assets\Blender Assets\Materials.meta
+          projectPath: Assets\Blender Assets\Materials.meta
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Blender Assets\Materials
+        label: Materials
+        level: 2
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: Assets\Blender Assets\Materials\Main Texture.mat
+        label: Main Texture.mat
+        level: 3
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Blender Assets\Materials\Main Texture.mat
+          fullPath: C:\Users\jaisa\InTheOrbit\InTheOrbit\Assets\Blender Assets\Materials\Main
+            Texture.mat
+          projectPath: Assets\Blender Assets\Materials\Main Texture.mat
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Blender Assets\Materials\Main Texture.mat.meta
+        label: Main Texture.mat.meta
+        level: 4
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Blender Assets\Materials\Main Texture.mat.meta
+          fullPath: C:\Users\jaisa\InTheOrbit\InTheOrbit\Assets\Blender Assets\Materials\Main
+            Texture.mat.meta
+          projectPath: Assets\Blender Assets\Materials\Main Texture.mat.meta
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
       - path: Assets\Scenes
         label: Scenes
         level: 1
@@ -595,11 +1871,47 @@ MonoBehaviour:
           originalPath: 
           indexStatus: 0
           workTreeStatus: 0
+      - path: Assets\Scenes\GameScene.unity
+        label: GameScene.unity
+        level: 2
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Scenes\GameScene.unity
+          fullPath: C:\Users\jaisa\InTheOrbit\InTheOrbit\Assets\Scenes\GameScene.unity
+          projectPath: Assets\Scenes\GameScene.unity
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Scenes\GameScene.unity.meta
+        label: GameScene.unity.meta
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Scenes\GameScene.unity.meta
+          fullPath: C:\Users\jaisa\InTheOrbit\InTheOrbit\Assets\Scenes\GameScene.unity.meta
+          projectPath: Assets\Scenes\GameScene.unity.meta
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
       - path: Assets\Scenes\Main Menu.unity
         label: Main Menu.unity
         level: 2
         isFolder: 0
-        isContainer: 1
+        isContainer: 0
         isCollapsed: 0
         isHidden: 0
         isActive: 0
@@ -611,11 +1923,11 @@ MonoBehaviour:
           fullPath: C:\Users\jaisa\InTheOrbit\InTheOrbit\Assets\Scenes\Main Menu.unity
           projectPath: Assets\Scenes\Main Menu.unity
           originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets\Scenes\Main Menu.unity.meta
-        label: Main Menu.unity.meta
-        level: 3
+          indexStatus: 0
+          workTreeStatus: 3
+      - path: Assets\Scenes\SettingsScene.unity
+        label: SettingsScene.unity
+        level: 2
         isFolder: 0
         isContainer: 0
         isCollapsed: 0
@@ -625,12 +1937,12 @@ MonoBehaviour:
         checkState: 0
         isLocked: 0
         gitStatusEntry:
-          path: Assets\Scenes\Main Menu.unity.meta
-          fullPath: C:\Users\jaisa\InTheOrbit\InTheOrbit\Assets\Scenes\Main Menu.unity.meta
-          projectPath: Assets\Scenes\Main Menu.unity.meta
+          path: Assets\Scenes\SettingsScene.unity
+          fullPath: C:\Users\jaisa\InTheOrbit\InTheOrbit\Assets\Scenes\SettingsScene.unity
+          projectPath: Assets\Scenes\SettingsScene.unity
           originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
+          indexStatus: 0
+          workTreeStatus: 3
       - path: UserSettings
         label: UserSettings
         level: 0
@@ -667,6 +1979,42 @@ MonoBehaviour:
           originalPath: 
           indexStatus: 0
           workTreeStatus: 3
+      - path: UserSettings\Layouts
+        label: Layouts
+        level: 1
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: UserSettings\Layouts\default-2022.dwlt
+        label: default-2022.dwlt
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: UserSettings\Layouts\default-2022.dwlt
+          fullPath: C:\Users\jaisa\InTheOrbit\InTheOrbit\UserSettings\Layouts\default-2022.dwlt
+          projectPath: UserSettings\Layouts\default-2022.dwlt
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 3
       selectedNode:
         path: 
         label: 
@@ -687,33 +2035,385 @@ MonoBehaviour:
           indexStatus: 0
           workTreeStatus: 0
     gitStatusEntries:
+    - path: Assets\Blender Assets.meta
+      fullPath: C:\Users\jaisa\InTheOrbit\InTheOrbit\Assets\Blender Assets.meta
+      projectPath: Assets\Blender Assets.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Blender Assets\Blend Files.meta
+      fullPath: C:\Users\jaisa\InTheOrbit\InTheOrbit\Assets\Blender Assets\Blend
+        Files.meta
+      projectPath: Assets\Blender Assets\Blend Files.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Blender Assets\Blend Files\Boss 1.blend.meta
+      fullPath: C:\Users\jaisa\InTheOrbit\InTheOrbit\Assets\Blender Assets\Blend
+        Files\Boss 1.blend.meta
+      projectPath: Assets\Blender Assets\Blend Files\Boss 1.blend.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Blender Assets\Blend Files\Bunker.blend.meta
+      fullPath: C:\Users\jaisa\InTheOrbit\InTheOrbit\Assets\Blender Assets\Blend
+        Files\Bunker.blend.meta
+      projectPath: Assets\Blender Assets\Blend Files\Bunker.blend.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Blender Assets\Blend Files\Jump Animation_Character Black Male.blend.meta
+      fullPath: C:\Users\jaisa\InTheOrbit\InTheOrbit\Assets\Blender Assets\Blend
+        Files\Jump Animation_Character Black Male.blend.meta
+      projectPath: Assets\Blender Assets\Blend Files\Jump Animation_Character Black
+        Male.blend.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Blender Assets\Blend Files\Jump Animation_Character White Male.blend.meta
+      fullPath: C:\Users\jaisa\InTheOrbit\InTheOrbit\Assets\Blender Assets\Blend
+        Files\Jump Animation_Character White Male.blend.meta
+      projectPath: Assets\Blender Assets\Blend Files\Jump Animation_Character White
+        Male.blend.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Blender Assets\Blend Files\Logo.blend.meta
+      fullPath: C:\Users\jaisa\InTheOrbit\InTheOrbit\Assets\Blender Assets\Blend
+        Files\Logo.blend.meta
+      projectPath: Assets\Blender Assets\Blend Files\Logo.blend.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Blender Assets\Blend Files\Low Poly Trees.blend.meta
+      fullPath: C:\Users\jaisa\InTheOrbit\InTheOrbit\Assets\Blender Assets\Blend
+        Files\Low Poly Trees.blend.meta
+      projectPath: Assets\Blender Assets\Blend Files\Low Poly Trees.blend.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Blender Assets\Blend Files\Main Character Black Male.blend.meta
+      fullPath: C:\Users\jaisa\InTheOrbit\InTheOrbit\Assets\Blender Assets\Blend
+        Files\Main Character Black Male.blend.meta
+      projectPath: Assets\Blender Assets\Blend Files\Main Character Black Male.blend.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Blender Assets\Blend Files\Main Character White Male.blend.meta
+      fullPath: C:\Users\jaisa\InTheOrbit\InTheOrbit\Assets\Blender Assets\Blend
+        Files\Main Character White Male.blend.meta
+      projectPath: Assets\Blender Assets\Blend Files\Main Character White Male.blend.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Blender Assets\Blend Files\Main Weapon.blend.meta
+      fullPath: C:\Users\jaisa\InTheOrbit\InTheOrbit\Assets\Blender Assets\Blend
+        Files\Main Weapon.blend.meta
+      projectPath: Assets\Blender Assets\Blend Files\Main Weapon.blend.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Blender Assets\Blend Files\Run Animation_Character Black Male.blend.meta
+      fullPath: C:\Users\jaisa\InTheOrbit\InTheOrbit\Assets\Blender Assets\Blend
+        Files\Run Animation_Character Black Male.blend.meta
+      projectPath: Assets\Blender Assets\Blend Files\Run Animation_Character Black
+        Male.blend.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Blender Assets\Blend Files\Run Animation_Character White Male.blend.meta
+      fullPath: C:\Users\jaisa\InTheOrbit\InTheOrbit\Assets\Blender Assets\Blend
+        Files\Run Animation_Character White Male.blend.meta
+      projectPath: Assets\Blender Assets\Blend Files\Run Animation_Character White
+        Male.blend.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Blender Assets\Blend Files\Secondary Weapon.blend.meta
+      fullPath: C:\Users\jaisa\InTheOrbit\InTheOrbit\Assets\Blender Assets\Blend
+        Files\Secondary Weapon.blend.meta
+      projectPath: Assets\Blender Assets\Blend Files\Secondary Weapon.blend.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Blender Assets\Blend Files\Slide Animation_Character Black Male.blend.meta
+      fullPath: C:\Users\jaisa\InTheOrbit\InTheOrbit\Assets\Blender Assets\Blend
+        Files\Slide Animation_Character Black Male.blend.meta
+      projectPath: Assets\Blender Assets\Blend Files\Slide Animation_Character Black
+        Male.blend.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Blender Assets\Blend Files\Slide Animation_Character White Male.blend.meta
+      fullPath: C:\Users\jaisa\InTheOrbit\InTheOrbit\Assets\Blender Assets\Blend
+        Files\Slide Animation_Character White Male.blend.meta
+      projectPath: Assets\Blender Assets\Blend Files\Slide Animation_Character White
+        Male.blend.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Blender Assets\Blend Files\SpaceShip.blend.meta
+      fullPath: C:\Users\jaisa\InTheOrbit\InTheOrbit\Assets\Blender Assets\Blend
+        Files\SpaceShip.blend.meta
+      projectPath: Assets\Blender Assets\Blend Files\SpaceShip.blend.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Blender Assets\Blend Files\Team Logo.blend.meta
+      fullPath: C:\Users\jaisa\InTheOrbit\InTheOrbit\Assets\Blender Assets\Blend
+        Files\Team Logo.blend.meta
+      projectPath: Assets\Blender Assets\Blend Files\Team Logo.blend.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Blender Assets\Blend Files\Walk Animation_Character Black Male.blend.meta
+      fullPath: C:\Users\jaisa\InTheOrbit\InTheOrbit\Assets\Blender Assets\Blend
+        Files\Walk Animation_Character Black Male.blend.meta
+      projectPath: Assets\Blender Assets\Blend Files\Walk Animation_Character Black
+        Male.blend.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Blender Assets\Blend Files\Walk Animation_Character White Male.blend.meta
+      fullPath: C:\Users\jaisa\InTheOrbit\InTheOrbit\Assets\Blender Assets\Blend
+        Files\Walk Animation_Character White Male.blend.meta
+      projectPath: Assets\Blender Assets\Blend Files\Walk Animation_Character White
+        Male.blend.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Blender Assets\Blend Files\World.blend.meta
+      fullPath: C:\Users\jaisa\InTheOrbit\InTheOrbit\Assets\Blender Assets\Blend
+        Files\World.blend.meta
+      projectPath: Assets\Blender Assets\Blend Files\World.blend.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Blender Assets\Color Pallete.png.meta
+      fullPath: C:\Users\jaisa\InTheOrbit\InTheOrbit\Assets\Blender Assets\Color
+        Pallete.png.meta
+      projectPath: Assets\Blender Assets\Color Pallete.png.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Blender Assets\Concept Art.meta
+      fullPath: C:\Users\jaisa\InTheOrbit\InTheOrbit\Assets\Blender Assets\Concept
+        Art.meta
+      projectPath: Assets\Blender Assets\Concept Art.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Blender Assets\Concept Art\Concept1 Back.png.meta
+      fullPath: C:\Users\jaisa\InTheOrbit\InTheOrbit\Assets\Blender Assets\Concept
+        Art\Concept1 Back.png.meta
+      projectPath: Assets\Blender Assets\Concept Art\Concept1 Back.png.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Blender Assets\Concept Art\Concept1 Front.png.meta
+      fullPath: C:\Users\jaisa\InTheOrbit\InTheOrbit\Assets\Blender Assets\Concept
+        Art\Concept1 Front.png.meta
+      projectPath: Assets\Blender Assets\Concept Art\Concept1 Front.png.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Blender Assets\Concept Art\Concept1 Left.png.meta
+      fullPath: C:\Users\jaisa\InTheOrbit\InTheOrbit\Assets\Blender Assets\Concept
+        Art\Concept1 Left.png.meta
+      projectPath: Assets\Blender Assets\Concept Art\Concept1 Left.png.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Blender Assets\Concept Art\Concept1 Right.png.meta
+      fullPath: C:\Users\jaisa\InTheOrbit\InTheOrbit\Assets\Blender Assets\Concept
+        Art\Concept1 Right.png.meta
+      projectPath: Assets\Blender Assets\Concept Art\Concept1 Right.png.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Blender Assets\Concept Art\Concept1 Top.png.meta
+      fullPath: C:\Users\jaisa\InTheOrbit\InTheOrbit\Assets\Blender Assets\Concept
+        Art\Concept1 Top.png.meta
+      projectPath: Assets\Blender Assets\Concept Art\Concept1 Top.png.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Blender Assets\Concept Art\Concept1.png.meta
+      fullPath: C:\Users\jaisa\InTheOrbit\InTheOrbit\Assets\Blender Assets\Concept
+        Art\Concept1.png.meta
+      projectPath: Assets\Blender Assets\Concept Art\Concept1.png.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Blender Assets\Concept Art\Logo.png.meta
+      fullPath: C:\Users\jaisa\InTheOrbit\InTheOrbit\Assets\Blender Assets\Concept
+        Art\Logo.png.meta
+      projectPath: Assets\Blender Assets\Concept Art\Logo.png.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Blender Assets\Concept Art\Main Weapon.png.meta
+      fullPath: C:\Users\jaisa\InTheOrbit\InTheOrbit\Assets\Blender Assets\Concept
+        Art\Main Weapon.png.meta
+      projectPath: Assets\Blender Assets\Concept Art\Main Weapon.png.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Blender Assets\Concept Art\Map Concept Art.jpg.meta
+      fullPath: C:\Users\jaisa\InTheOrbit\InTheOrbit\Assets\Blender Assets\Concept
+        Art\Map Concept Art.jpg.meta
+      projectPath: Assets\Blender Assets\Concept Art\Map Concept Art.jpg.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Blender Assets\Concept Art\Map Render 1.png.meta
+      fullPath: C:\Users\jaisa\InTheOrbit\InTheOrbit\Assets\Blender Assets\Concept
+        Art\Map Render 1.png.meta
+      projectPath: Assets\Blender Assets\Concept Art\Map Render 1.png.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Blender Assets\Concept Art\Map Render 2.png.meta
+      fullPath: C:\Users\jaisa\InTheOrbit\InTheOrbit\Assets\Blender Assets\Concept
+        Art\Map Render 2.png.meta
+      projectPath: Assets\Blender Assets\Concept Art\Map Render 2.png.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Blender Assets\Concept Art\Map Render 3.png.meta
+      fullPath: C:\Users\jaisa\InTheOrbit\InTheOrbit\Assets\Blender Assets\Concept
+        Art\Map Render 3.png.meta
+      projectPath: Assets\Blender Assets\Concept Art\Map Render 3.png.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Blender Assets\Concept Art\Map Render 4.png.meta
+      fullPath: C:\Users\jaisa\InTheOrbit\InTheOrbit\Assets\Blender Assets\Concept
+        Art\Map Render 4.png.meta
+      projectPath: Assets\Blender Assets\Concept Art\Map Render 4.png.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Blender Assets\Concept Art\Map Render 5.png.meta
+      fullPath: C:\Users\jaisa\InTheOrbit\InTheOrbit\Assets\Blender Assets\Concept
+        Art\Map Render 5.png.meta
+      projectPath: Assets\Blender Assets\Concept Art\Map Render 5.png.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Blender Assets\Concept Art\Map.png.meta
+      fullPath: C:\Users\jaisa\InTheOrbit\InTheOrbit\Assets\Blender Assets\Concept
+        Art\Map.png.meta
+      projectPath: Assets\Blender Assets\Concept Art\Map.png.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Blender Assets\Concept Art\Secondary Weapon.png.meta
+      fullPath: C:\Users\jaisa\InTheOrbit\InTheOrbit\Assets\Blender Assets\Concept
+        Art\Secondary Weapon.png.meta
+      projectPath: Assets\Blender Assets\Concept Art\Secondary Weapon.png.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Blender Assets\Concept Art\SpaceShip Render 1.png.meta
+      fullPath: C:\Users\jaisa\InTheOrbit\InTheOrbit\Assets\Blender Assets\Concept
+        Art\SpaceShip Render 1.png.meta
+      projectPath: Assets\Blender Assets\Concept Art\SpaceShip Render 1.png.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Blender Assets\Concept Art\SpaceShip Render 2.png.meta
+      fullPath: C:\Users\jaisa\InTheOrbit\InTheOrbit\Assets\Blender Assets\Concept
+        Art\SpaceShip Render 2.png.meta
+      projectPath: Assets\Blender Assets\Concept Art\SpaceShip Render 2.png.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Blender Assets\Concept Art\SpaceShip Render 3.png.meta
+      fullPath: C:\Users\jaisa\InTheOrbit\InTheOrbit\Assets\Blender Assets\Concept
+        Art\SpaceShip Render 3.png.meta
+      projectPath: Assets\Blender Assets\Concept Art\SpaceShip Render 3.png.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Blender Assets\Concept Art\Team Logo.png.meta
+      fullPath: C:\Users\jaisa\InTheOrbit\InTheOrbit\Assets\Blender Assets\Concept
+        Art\Team Logo.png.meta
+      projectPath: Assets\Blender Assets\Concept Art\Team Logo.png.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Blender Assets\desktop.ini.meta
+      fullPath: C:\Users\jaisa\InTheOrbit\InTheOrbit\Assets\Blender Assets\desktop.ini.meta
+      projectPath: Assets\Blender Assets\desktop.ini.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Blender Assets\Materials.meta
+      fullPath: C:\Users\jaisa\InTheOrbit\InTheOrbit\Assets\Blender Assets\Materials.meta
+      projectPath: Assets\Blender Assets\Materials.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Blender Assets\Materials\Main Texture.mat
+      fullPath: C:\Users\jaisa\InTheOrbit\InTheOrbit\Assets\Blender Assets\Materials\Main
+        Texture.mat
+      projectPath: Assets\Blender Assets\Materials\Main Texture.mat
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Blender Assets\Materials\Main Texture.mat.meta
+      fullPath: C:\Users\jaisa\InTheOrbit\InTheOrbit\Assets\Blender Assets\Materials\Main
+        Texture.mat.meta
+      projectPath: Assets\Blender Assets\Materials\Main Texture.mat.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Scenes\GameScene.unity
+      fullPath: C:\Users\jaisa\InTheOrbit\InTheOrbit\Assets\Scenes\GameScene.unity
+      projectPath: Assets\Scenes\GameScene.unity
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Scenes\GameScene.unity.meta
+      fullPath: C:\Users\jaisa\InTheOrbit\InTheOrbit\Assets\Scenes\GameScene.unity.meta
+      projectPath: Assets\Scenes\GameScene.unity.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
     - path: Assets\Scenes\Main Menu.unity
       fullPath: C:\Users\jaisa\InTheOrbit\InTheOrbit\Assets\Scenes\Main Menu.unity
       projectPath: Assets\Scenes\Main Menu.unity
       originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Scenes\Main Menu.unity.meta
-      fullPath: C:\Users\jaisa\InTheOrbit\InTheOrbit\Assets\Scenes\Main Menu.unity.meta
-      projectPath: Assets\Scenes\Main Menu.unity.meta
+      indexStatus: 0
+      workTreeStatus: 3
+    - path: Assets\Scenes\SettingsScene.unity
+      fullPath: C:\Users\jaisa\InTheOrbit\InTheOrbit\Assets\Scenes\SettingsScene.unity
+      projectPath: Assets\Scenes\SettingsScene.unity
       originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
+      indexStatus: 0
+      workTreeStatus: 3
     - path: UserSettings\EditorUserSettings.asset
       fullPath: C:\Users\jaisa\InTheOrbit\InTheOrbit\UserSettings\EditorUserSettings.asset
       projectPath: UserSettings\EditorUserSettings.asset
       originalPath: 
       indexStatus: 0
       workTreeStatus: 3
-    changedFilesText: 3 changed files
+    - path: UserSettings\Layouts\default-2022.dwlt
+      fullPath: C:\Users\jaisa\InTheOrbit\InTheOrbit\UserSettings\Layouts\default-2022.dwlt
+      projectPath: UserSettings\Layouts\default-2022.dwlt
+      originalPath: 
+      indexStatus: 0
+      workTreeStatus: 3
+    changedFilesText: 53 changed files
     lastCurrentBranchChangedEvent:
-      updatedTimeString: 2023-12-26T12:14:12.294-08:00
+      updatedTimeString: 2024-02-04T17:31:46.429-08:00
       cacheType: 1
     lastStatusEntriesChangedEvent:
-      updatedTimeString: 2023-12-26T12:16:04.455-08:00
+      updatedTimeString: 2024-02-04T17:50:05.279-08:00
       cacheType: 6
     lastLocksChangedEvent:
-      updatedTimeString: 2023-12-26T12:14:13.022-08:00
+      updatedTimeString: 2024-02-04T17:31:46.463-08:00
       cacheType: 7
   historyView:
     currentLogHasUpdate: 0
@@ -936,7 +2636,7 @@ MonoBehaviour:
     updatedTimeString: 2023-12-09T17:29:22.648-08:00
     cacheType: 5
   lastStatusEntriesChangedEvent:
-    updatedTimeString: 2023-12-09T17:29:22.639-08:00
+    updatedTimeString: 2024-02-03T16:48:39.346-08:00
     cacheType: 6
   pullButtonContent:
     m_Text: Pull
@@ -954,13 +2654,13 @@ MonoBehaviour:
     m_Text: Fetch
     m_Image: {fileID: 0}
     m_Tooltip: 
-  repositoryProgressValue: 0
-  repositoryProgressMessage: 
+  repositoryProgressValue: 1
+  repositoryProgressMessage: Listing changed files...
   appManagerProgressValue: 1
   appManagerProgressMessage: Initialized
   connections: []
   primaryConnectionUsername: 
---- !u!114 &13
+--- !u!114 &14
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -980,10 +2680,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 0
-    y: 633
-    width: 1063
-    height: 358
+    x: 1920
+    y: 706
+    width: 1307
+    height: 285
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -996,7 +2696,8 @@ MonoBehaviour:
     m_OverlaysVisible: 1
   m_SearchFilter:
     m_NameFilter: 
-    m_ClassNames: []
+    m_ClassNames:
+    - Model
     m_AssetLabels: []
     m_AssetBundleNames: []
     m_ReferencingInstanceIDs: 
@@ -1004,8 +2705,7 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SkipHidden: 0
     m_SearchArea: 1
-    m_Folders:
-    - Assets
+    m_Folders: []
     m_Globs: []
     m_OriginalText: 
     m_ImportLogFlags: 0
@@ -1013,16 +2713,16 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets
+  - Assets/Animations
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\jaisa\InTheOrbit\InTheOrbit
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: e25a0000
-    m_LastClickedID: 23266
-    m_ExpandedIDs: 00000000e25a0000e45a000000ca9a3b
+    m_SelectedIDs: 02ca9a3b
+    m_LastClickedID: 1000000002
+    m_ExpandedIDs: 00000000f2610000f4610000f661000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1050,7 +2750,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000e25a0000e45a0000
+    m_ExpandedIDs: 00000000f2610000f4610000f6610000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1077,8 +2777,8 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 0
-    m_ExpandedInstanceIDs: c623000000000000
+    m_HadKeyboardFocusLastEvent: 1
+    m_ExpandedInstanceIDs: c6230000146c00004c1f0000f05b000000000000fe9501000a960100ee95010006960100487f00006064000078640000cc670000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1106,7 +2806,7 @@ MonoBehaviour:
     m_GridSize: 64
   m_SkipHiddenPackages: 0
   m_DirectoriesAreaWidth: 207
---- !u!114 &14
+--- !u!114 &15
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1126,9 +2826,9 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 1064
+    x: 3228
     y: 73
-    width: 855
+    width: 611
     height: 918
   m_SerializedDataModeController:
     m_DataMode: 0
@@ -1143,7 +2843,7 @@ MonoBehaviour:
   m_ObjectsLockedBeforeSerialization: []
   m_InstanceIDsLockedBeforeSerialization: 
   m_PreviewResizer:
-    m_CachedPref: 160
+    m_CachedPref: 308
     m_ControlHash: -371814159
     m_PrefName: Preview_InspectorPreview
   m_LastInspectedObjectInstanceID: -1
@@ -1153,7 +2853,7 @@ MonoBehaviour:
   m_LockTracker:
     m_IsLocked: 0
   m_PreviewWindow: {fileID: 0}
---- !u!114 &15
+--- !u!114 &16
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1173,10 +2873,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 0
+    x: 1920
     y: 73
-    width: 308
-    height: 539
+    width: 271
+    height: 612
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -1190,9 +2890,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 
+      m_SelectedIDs: d0670000
       m_LastClickedID: 0
-      m_ExpandedIDs: 32fbffff
+      m_ExpandedIDs: e6faffff3c610000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -1216,7 +2916,7 @@ MonoBehaviour:
       m_IsLocked: 0
     m_CurrentSortingName: TransformSorting
   m_WindowGUID: 4c969a2b90040154d917609493e03593
---- !u!114 &16
+--- !u!114 &17
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1236,10 +2936,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 309
+    x: 2192
     y: 73
-    width: 753
-    height: 539
+    width: 1034
+    height: 612
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -1254,7 +2954,7 @@ MonoBehaviour:
       floating: 0
       collapsed: 0
       displayed: 1
-      snapOffset: {x: -166, y: -26}
+      snapOffset: {x: -166, y: -26.666687}
       snapOffsetDelta: {x: 0, y: 0}
       snapCorner: 3
       id: Tool Settings
@@ -1319,7 +3019,7 @@ MonoBehaviour:
       floating: 0
       collapsed: 0
       displayed: 1
-      snapOffset: {x: 67.5, y: -123}
+      snapOffset: {x: 67.5, y: -123.33331}
       snapOffsetDelta: {x: 0, y: 0}
       snapCorner: 2
       id: Orientation
@@ -1501,10 +3201,23 @@ MonoBehaviour:
       floating: 0
       collapsed: 0
       displayed: 1
-      snapOffset: {x: 511, y: 158}
+      snapOffset: {x: 672, y: 10}
       snapOffsetDelta: {x: 0, y: 0}
       snapCorner: 0
       id: UnityEditor.SceneViewCameraOverlay
+      index: 9
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverriden: 0
+    - dockPosition: 1
+      containerId: overlay-container--right
+      floating: 0
+      collapsed: 0
+      displayed: 0
+      snapOffset: {x: 48, y: 48}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      id: Cinemachine Tool Settings
       index: 8
       layout: 4
       size: {x: 0, y: 0}
@@ -1520,9 +3233,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -0.022514343, y: 9.449638, z: 148.8962}
+    m_Target: {x: 23.364408, y: 44.633347, z: 3.7542467}
     speed: 2
-    m_Value: {x: -0.022514343, y: 9.449638, z: 148.8962}
+    m_Value: {x: 23.364408, y: 44.633347, z: 3.7542467}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -1547,7 +3260,7 @@ MonoBehaviour:
         m_Value: 0
       m_Color: {r: 0.5, g: 0.5, b: 0.5, a: 0.4}
       m_Pivot: {x: 0, y: 0, z: 0}
-      m_Size: {x: 0, y: 0}
+      m_Size: {x: 1, y: 1}
     yGrid:
       m_Fade:
         m_Target: 1
@@ -1563,22 +3276,22 @@ MonoBehaviour:
         m_Value: 0
       m_Color: {r: 0.5, g: 0.5, b: 0.5, a: 0.4}
       m_Pivot: {x: 0, y: 0, z: 0}
-      m_Size: {x: 0, y: 0}
+      m_Size: {x: 1, y: 1}
     m_ShowGrid: 1
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.019186718, y: 0.016490042, z: 0.00031638003, w: 0.99968255}
+    m_Target: {x: 0.00016492167, y: 0.9907025, z: -0.1360772, w: 0.0011825465}
     speed: 2
-    m_Value: {x: 0.019186718, y: -0.016490042, z: -0.00031638003, w: -0.99968255}
+    m_Value: {x: 0.00016669446, y: 0.99049246, z: -0.13756242, w: 0.001182292}
   m_Size:
-    m_Target: 19.352823
+    m_Target: 3.382306
     speed: 2
-    m_Value: 19.352823
+    m_Value: 3.382306
   m_Ortho:
-    m_Target: 0
+    m_Target: 1
     speed: 2
-    m_Value: 0
+    m_Value: 1
   m_CameraSettings:
     m_Speed: 1
     m_SpeedNormalized: 0.5
@@ -1599,7 +3312,7 @@ MonoBehaviour:
   m_SceneVisActive: 1
   m_LastLockedObject: {fileID: 0}
   m_ViewIsLockedToObject: 0
---- !u!114 &17
+--- !u!114 &18
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1620,9 +3333,9 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 613
-    width: 1366
-    height: 378
+    y: 706
+    width: 1307
+    height: 285
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -1633,7 +3346,7 @@ MonoBehaviour:
     m_LastAppliedPresetName: Default
     m_SaveData: []
     m_OverlaysVisible: 1
---- !u!114 &18
+--- !u!114 &19
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1653,10 +3366,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 309
+    x: 2192
     y: 73
-    width: 753
-    height: 539
+    width: 1034
+    height: 612
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -1675,7 +3388,7 @@ MonoBehaviour:
   m_ShowGizmos: 0
   m_TargetDisplay: 0
   m_ClearColor: {r: 0, g: 0, b: 0, a: 0}
-  m_TargetSize: {x: 753, y: 518}
+  m_TargetSize: {x: 1034, y: 591}
   m_TextureFilterMode: 0
   m_TextureHideFlags: 61
   m_RenderIMGUI: 1
@@ -1690,10 +3403,10 @@ MonoBehaviour:
     m_VRangeLocked: 0
     hZoomLockedByDefault: 0
     vZoomLockedByDefault: 0
-    m_HBaseRangeMin: -376.5
-    m_HBaseRangeMax: 376.5
-    m_VBaseRangeMin: -259
-    m_VBaseRangeMax: 259
+    m_HBaseRangeMin: -517
+    m_HBaseRangeMax: 517
+    m_VBaseRangeMin: -295.5
+    m_VBaseRangeMax: 295.5
     m_HAllowExceedBaseRangeMin: 1
     m_HAllowExceedBaseRangeMax: 1
     m_VAllowExceedBaseRangeMin: 1
@@ -1702,7 +3415,7 @@ MonoBehaviour:
     m_HSlider: 0
     m_VSlider: 0
     m_IgnoreScrollWheelUntilClicked: 0
-    m_EnableMouseInput: 0
+    m_EnableMouseInput: 1
     m_EnableSliderZoomHorizontal: 0
     m_EnableSliderZoomVertical: 0
     m_UniformScale: 1
@@ -1711,23 +3424,23 @@ MonoBehaviour:
       serializedVersion: 2
       x: 0
       y: 21
-      width: 753
-      height: 518
-    m_Scale: {x: 1, y: 1}
-    m_Translation: {x: 376.5, y: 259}
+      width: 1034
+      height: 591
+    m_Scale: {x: 1.5, y: 1.5}
+    m_Translation: {x: 517, y: 295.5}
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
-      x: -376.5
-      y: -259
-      width: 753
-      height: 518
+      x: -344.66666
+      y: -197
+      width: 689.3333
+      height: 394
     m_MinimalGUI: 1
   m_defaultScale: 1
-  m_LastWindowPixelSize: {x: 753, y: 539}
+  m_LastWindowPixelSize: {x: 1034, y: 612}
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 01000000000000000000

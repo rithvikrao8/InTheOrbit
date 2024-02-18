@@ -68,8 +68,8 @@ MonoBehaviour:
     y: 0
     width: 302.5
     height: 588
-  m_MinSize: {x: 275, y: 50}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 276, y: 71}
+  m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 13}
   m_Panes:
   - {fileID: 13}
@@ -393,7 +393,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 1
+    m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: c6230000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -925,7 +925,7 @@ MonoBehaviour:
   m_Rotation:
     m_Target: {x: -0.015306831, y: 0.015163159, z: -0.00021528306, w: -0.9997813}
     speed: 2
-    m_Value: {x: -0.0153066255, y: 0.015162955, z: -0.00021528016, w: -0.99976784}
+    m_Value: {x: -0.015306831, y: 0.015163158, z: -0.00021528306, w: -0.9997813}
   m_Size:
     m_Target: 41.486355
     speed: 2

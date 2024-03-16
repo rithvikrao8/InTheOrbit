@@ -3,11 +3,12 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class LevelManager : MonoBehaviour
+public class creditManager : MonoBehaviour
 {
+
     public void LoadScene()
     {
-        SceneManager.LoadScene(4);
+        SceneManager.LoadScene(3);
     }
 
 }

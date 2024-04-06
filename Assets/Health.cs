@@ -22,29 +22,46 @@ public class Health : MonoBehaviour
         
     }
 
-    public void takeDamage(float damage)
+    public IEnumerator takeDamage(float damage)
     {
-        healthAmount -= damage;
-        healthbar.fillAmount = healthAmount / 100;
+
+        for (int i = 0; i < (damage*10); i++)
+        {
+
+            healthAmount -= (float)0.1;
+            healthbar.fillAmount = healthAmount / 100;
+            yield return new WaitForSecondsRealtime((float)0.00001);
+
+        }
     }
 
-    public void Heal(float healing)
+    public IEnumerator Heal(float healing)
     {
-        healthAmount += healing;
-        healthAmount = Mathf.Clamp(healthAmount, 0, 100);
 
-        healthbar.fillAmount = healthAmount / 100;
+        for (int i = 0; i < (healing*10); i++)
+        {
+            healthAmount += (float)0.1;
+            healthAmount = Mathf.Clamp(healthAmount, 0, 100);
+
+            healthbar.fillAmount = healthAmount / 100;
+            yield return new WaitForSeconds((float)0.00001);
+        }
+    }
+
+    public IEnumerator Delay()
+    {
+        yield return null;
     }
 
     public void Test()
     {
         if (Input.GetKeyDown(KeyCode.Return))
         {
-            takeDamage(20);
+           StartCoroutine(takeDamage(20));
         }
         if(Input.GetKeyDown(KeyCode.Space))
         {
-            Heal(20);
+            StartCoroutine(Heal(20));
         }
     }
 

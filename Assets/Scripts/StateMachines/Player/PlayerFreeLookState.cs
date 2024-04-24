@@ -22,6 +22,12 @@ public class PlayerFreeLookState : PlayerBaseState
 
     public override void Tick(float deltaTime)
     {
+        if(GenericStateMachine.InputReader.IsAttacking)
+        {
+            GenericStateMachine.SwitchState(new PlayerAttackingState(GenericStateMachine, 0));
+            return;
+        }
+
         Vector3 movement = CalculateMovement();
 
         Move(movement * GenericStateMachine.FreeLookMovementSpeed, deltaTime);
@@ -55,14 +61,17 @@ public class PlayerFreeLookState : PlayerBaseState
     {
         Vector3 forward = GenericStateMachine.MainCameraTransform.forward;
         Vector3 right = GenericStateMachine.MainCameraTransform.right;
+
         forward.y = 0f;
         right.y = 0f;
+
         forward.Normalize();
         right.Normalize();
-        return forward * GenericStateMachine.InputReader.MovementValue.y + right * GenericStateMachine.InputReader.MovementValue.x;
 
-
+        return forward * GenericStateMachine.InputReader.MovementValue.y +
+            right * GenericStateMachine.InputReader.MovementValue.x;
     }
+
     private void FaceMovementDirection(Vector3 movement, float deltaTime)
     {
         GenericStateMachine.transform.rotation = Quaternion.Lerp(
@@ -70,4 +79,5 @@ public class PlayerFreeLookState : PlayerBaseState
             Quaternion.LookRotation(movement),
             deltaTime * GenericStateMachine.RotationDamping);
     }
+
 }

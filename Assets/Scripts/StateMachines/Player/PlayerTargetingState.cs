@@ -18,12 +18,18 @@ public class PlayerTargetingState : PlayerBaseState
     public override void Enter()
     {
         GenericStateMachine.InputReader.CancelEvent += OnCancel;
-
+ 
         GenericStateMachine.Animator.Play(TargetingBlendTreeHash);
     }
 
     public override void Tick(float deltaTime)
     {
+        if(GenericStateMachine.InputReader.IsAttacking)
+        {
+            GenericStateMachine.SwitchState(new PlayerAttackingState(GenericStateMachine, 0));
+            return;
+        }
+
         if(GenericStateMachine.Targeter.CurrentTarget == null)
         {
             GenericStateMachine.SwitchState(new PlayerFreeLookState(GenericStateMachine));

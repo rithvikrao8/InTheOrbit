@@ -6,6 +6,9 @@ using UnityEngine.InputSystem;
 
 public class InputReader : MonoBehaviour, Controls.IPlayerActions
 {
+    public bool IsAttacking { get; private set; }
+
+
     public Vector2 MovementValue { get; private set; }
 
     public event Action JumpEvent;
@@ -63,4 +66,9 @@ public class InputReader : MonoBehaviour, Controls.IPlayerActions
 
         CancelEvent?.Invoke();
     }
+    public void OnAttack(InputAction.CallbackContext context)
+    {
+        IsAttacking = context.ReadValueAsButton();
+    }   
+
 }

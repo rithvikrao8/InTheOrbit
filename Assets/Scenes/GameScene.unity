@@ -316,9 +316,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 124430740}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.27310345, y: -0.000000016552278, z: 0.000000004699122, w: 0.9619847}
-  m_LocalRotation: {x: 0.27310345, y: -0.00000001680915, z: 0.000000004772047, w: 0.9619847}
-  m_LocalRotation: {x: 0.08238123, y: 0.0013885334, z: -0.00011477937, w: 0.9965999}
+  m_LocalRotation: {x: 0.082381256, y: 0.0013885249, z: -0.00011477869, w: 0.9965999}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -1529,7 +1527,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 82a2914d8f86c62488456950c8330e38, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -3.94
+      value: -0.2
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 82a2914d8f86c62488456950c8330e38, type: 3}
       propertyPath: m_LocalPosition.z
@@ -2379,7 +2377,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1433409761}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.031272292, y: 0.0010458985, z: -0.00003272366, w: 0.9995104}
+  m_LocalRotation: {x: 0.031272322, y: 0.0010458985, z: -0.000032723692, w: 0.9995104}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -2458,7 +2456,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1528765591}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.0642879, y: 0.0013903916, z: -0.00008957073, w: 0.9979304}
+  m_LocalRotation: {x: 0.06428792, y: 0.0013903787, z: -0.00008956992, w: 0.9979304}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -3133,7 +3131,19 @@ MonoBehaviour:
   <FreeLookMovementSpeed>k__BackingField: 14
   <TargetingMovementSpeed>k__BackingField: 11
   <RotationDamping>k__BackingField: 10
-  <Attacks>k__BackingField: []
+  <Attacks>k__BackingField:
+  - <AnimationName>k__BackingField: SuprisePunchAttack1
+    <TransitionDuration>k__BackingField: 0.1
+    <ComboStateIndex>k__BackingField: 1
+    <ComboAttackTime>k__BackingField: 0.6
+  - <AnimationName>k__BackingField: PunchingAttack2
+    <TransitionDuration>k__BackingField: 0.3
+    <ComboStateIndex>k__BackingField: 2
+    <ComboAttackTime>k__BackingField: 0.7
+  - <AnimationName>k__BackingField: KickingAttack3
+    <TransitionDuration>k__BackingField: 0.2
+    <ComboStateIndex>k__BackingField: -1
+    <ComboAttackTime>k__BackingField: 0
 --- !u!114 &1764328160
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3387,8 +3397,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2123005119}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.082381226, y: 0.0013885377, z: -0.0001147797, w: 0.9965999}
-  m_LocalPosition: {x: -44.73065, y: -5.655, z: -49.899704}
+  m_LocalRotation: {x: 0.08238125, y: 0.0013885137, z: -0.00011477776, w: 0.9965999}
+  m_LocalPosition: {x: -44.73065, y: -5.855, z: -49.899704}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []

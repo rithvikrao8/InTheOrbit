@@ -4,27 +4,33 @@ using UnityEngine;
 
 public class EnemyIdleState : EnemyBaseState
 {
-
-    private readonly int locomotionHash = Animator.StringToHash("Locomotion");
+    private readonly int MovementHash = Animator.StringToHash("Movement"); // Replace 'movement' with the name of animation
     private readonly int SpeedHash = Animator.StringToHash("Speed");
+
     private const float CrossFadeDuration = 0.1f;
     private const float AnimatorDampTime = 0.1f;
-
-    public EnemyIdleState(EnemyStateMachine stateMachine) : base(stateMachine) {}
-
-
+    
+    public EnemyIdleState(EnemyStateMachine GenericStateMachine) : base(GenericStateMachine) { }
 
     public override void Enter()
     {
-        stateMachine.Animator.CrossFadeInFixedTime(locomotionHash, CrossFadeDuration);
-       
+        GenericStateMachine.Animator.CrossFadeInFixedTime(MovementHash, CrossFadeDuration);
+        
     }
+
     public override void Tick(float deltaTime)
     {
-        stateMachine.Animator.SetFloat(SpeedHash, 0f, AnimatorDampTime, deltaTime);
+        Move(deltaTime);
+
+        if(IsInChaseRange())
+        {
+            Debug.Log("In Range"); // For testing
+            // Transition to chasing state
+            return;
+        }
+
+        GenericStateMachine.Animator.SetFloat(SpeedHash, 0f, AnimatorDampTime, deltaTime);
     }
 
-    public override void Exit(){ }
-
-   
+    public override void Exit() { }
 }

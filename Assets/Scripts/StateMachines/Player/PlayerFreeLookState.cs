@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class PlayerFreeLookState : PlayerBaseState
 {
+    private readonly int FreeLookBlendTreeHash = Animator.StringToHash("FreeLookBlendTree");
+
     private readonly int FreeLookSpeedHash = Animator.StringToHash("FreeLookSpeed");
 
     private const float AnimatorDampTime = 0.1f;
@@ -13,17 +15,22 @@ public class PlayerFreeLookState : PlayerBaseState
 
     public override void Enter()
     {
+        GenericStateMachine.InputReader.TargetEvent += OnTarget;
 
+        GenericStateMachine.Animator.Play(FreeLookBlendTreeHash);
     }
 
     public override void Tick(float deltaTime)
     {
+        if(GenericStateMachine.InputReader.IsAttacking)
+        {
+            GenericStateMachine.SwitchState(new PlayerAttackingState(GenericStateMachine, 0));
+            return;
+        }
+
         Vector3 movement = CalculateMovement();
 
-
-
-        GenericStateMachine.Controller.Move(movement * GenericStateMachine.FreeLookMovementSpeed * deltaTime);
-
+        Move(movement * GenericStateMachine.FreeLookMovementSpeed, deltaTime);
         if (GenericStateMachine.InputReader.MovementValue == Vector2.zero) 
         {
             GenericStateMachine.Animator.SetFloat(FreeLookSpeedHash, 0, AnimatorDampTime,deltaTime);
@@ -39,21 +46,32 @@ public class PlayerFreeLookState : PlayerBaseState
 
     public override void Exit()
     {
+        GenericStateMachine.InputReader.TargetEvent -= OnTarget;
+    }
 
+    private void OnTarget()
+    {
+        if(!GenericStateMachine.Targeter.SelectTarget()) { return; }
+
+
+        GenericStateMachine.SwitchState(new PlayerTargetingState(GenericStateMachine));
     }
 
     private Vector3 CalculateMovement()
     {
         Vector3 forward = GenericStateMachine.MainCameraTransform.forward;
         Vector3 right = GenericStateMachine.MainCameraTransform.right;
+
         forward.y = 0f;
         right.y = 0f;
+
         forward.Normalize();
         right.Normalize();
-        return forward * GenericStateMachine.InputReader.MovementValue.y + right * GenericStateMachine.InputReader.MovementValue.x;
 
-
+        return forward * GenericStateMachine.InputReader.MovementValue.y +
+            right * GenericStateMachine.InputReader.MovementValue.x;
     }
+
     private void FaceMovementDirection(Vector3 movement, float deltaTime)
     {
         GenericStateMachine.transform.rotation = Quaternion.Lerp(
@@ -61,4 +79,5 @@ public class PlayerFreeLookState : PlayerBaseState
             Quaternion.LookRotation(movement),
             deltaTime * GenericStateMachine.RotationDamping);
     }
+
 }

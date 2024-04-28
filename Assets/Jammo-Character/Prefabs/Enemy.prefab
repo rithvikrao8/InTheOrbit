@@ -11,7 +11,10 @@ GameObject:
   - component: {fileID: 6779736698082045280}
   - component: {fileID: 92152379435704349}
   - component: {fileID: 8918811977119166056}
-  - component: {fileID: 1595799251903660809}
+  - component: {fileID: 1721540433898965061}
+  - component: {fileID: 8661551337796760579}
+  - component: {fileID: 7896331498396794423}
+  - component: {fileID: 739627581250064341}
   m_Layer: 0
   m_Name: Enemy
   m_TagString: Untagged
@@ -82,7 +85,7 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!114 &1595799251903660809
+--- !u!114 &1721540433898965061
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -91,13 +94,57 @@ MonoBehaviour:
   m_GameObject: {fileID: 5757185461453892105}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4c1131a2d02123d42995168973a19367, type: 3}
+  m_Script: {fileID: 11500000, guid: 5f291360023cd9a4fb6aec748b52993a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   <Animator>k__BackingField: {fileID: 8918811977119166056}
   <Controller>k__BackingField: {fileID: 92152379435704349}
-  <ForceReciever>k__BackingField: {fileID: 0}
-  <PlayerDetectionRange>k__BackingField: 0
+  <ForceReciever>k__BackingField: {fileID: 8661551337796760579}
+  <PlayerDetectionRange>k__BackingField: 10
+--- !u!114 &8661551337796760579
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5757185461453892105}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e5aebd2e2d8b22949877b8c879da5d04, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  controller: {fileID: 92152379435704349}
+  floatingLevel: 2.5
+--- !u!114 &7896331498396794423
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5757185461453892105}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e5aebd2e2d8b22949877b8c879da5d04, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  controller: {fileID: 92152379435704349}
+  floatingLevel: 2.25
+--- !u!114 &739627581250064341
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5757185461453892105}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f291360023cd9a4fb6aec748b52993a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  <Animator>k__BackingField: {fileID: 8918811977119166056}
+  <Controller>k__BackingField: {fileID: 92152379435704349}
+  <ForceReciever>k__BackingField: {fileID: 7896331498396794423}
+  <PlayerDetectionRange>k__BackingField: 10
 --- !u!1001 &8634962866495399979
 PrefabInstance:
   m_ObjectHideFlags: 0

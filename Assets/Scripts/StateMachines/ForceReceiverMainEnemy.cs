@@ -5,7 +5,7 @@ using UnityEngine;
 public class ForceReciever : MonoBehaviour
 {
     [SerializeField] private CharacterController controller;
-    [SerializeField] private float floatingLevel = 0.0f;
+    [SerializeField] private float floatingLevel = 2.5f;
 
     private float verticalVelocity;
 
@@ -13,13 +13,7 @@ public class ForceReciever : MonoBehaviour
 
     private void Update()
     {
-        if(controller.transform.position.y <= floatingLevel)
-        {
-            verticalVelocity += Physics.gravity.y * Time.deltaTime;
-        }
-        else
-        {
-            verticalVelocity -= Physics.gravity.y * Time.deltaTime;
-        }
+        // pass
     }
+    
 }

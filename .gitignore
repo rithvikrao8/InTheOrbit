@@ -47,3 +47,35 @@ sysinfo.txt
 
 # Crashlytics generated file
 crashlytics-build.properties
+BuildAndRun/InTheOrbit_Data/boot.config
+BuildAndRun/InTheOrbit_Data/globalgamemanagers
+BuildAndRun/InTheOrbit_Data/globalgamemanagers.assets
+BuildAndRun/InTheOrbit_Data/level0
+BuildAndRun/InTheOrbit_Data/level2
+BuildAndRun/InTheOrbit_Data/level3
+BuildAndRun/InTheOrbit_Data/level4
+BuildAndRun/InTheOrbit_Data/level4.resS
+BuildAndRun/InTheOrbit_Data/resources.assets
+BuildAndRun/InTheOrbit_Data/RuntimeInitializeOnLoads.json
+BuildAndRun/InTheOrbit_Data/ScriptingAssemblies.json
+BuildAndRun/InTheOrbit_Data/sharedassets0.assets
+BuildAndRun/InTheOrbit_Data/sharedassets0.resource
+BuildAndRun/InTheOrbit_Data/sharedassets2.assets
+BuildAndRun/InTheOrbit_Data/sharedassets2.assets.resS
+BuildAndRun/InTheOrbit_Data/sharedassets3.assets
+BuildAndRun/InTheOrbit_Data/sharedassets4.assets
+BuildAndRun/InTheOrbit_Data/sharedassets4.assets.resS
+BuildAndRun/InTheOrbit_Data/Managed/Assembly-CSharp.dll
+BuildAndRun/InTheOrbit_Data/Managed/Cinemachine.dll
+BuildAndRun/InTheOrbit_Data/Managed/Unity.AI.Navigation.dll
+BuildAndRun/InTheOrbit_Data/Managed/Unity.InputSystem.dll
+BuildAndRun/InTheOrbit_Data/Managed/Unity.InputSystem.ForUI.dll
+BuildAndRun/InTheOrbit_Data/Managed/Unity.Postprocessing.Runtime.dll
+BuildAndRun/InTheOrbit_Data/Managed/Unity.Recorder.Base.dll
+BuildAndRun/InTheOrbit_Data/Managed/Unity.Recorder.dll
+BuildAndRun/InTheOrbit_Data/Managed/Unity.TextMeshPro.dll
+BuildAndRun/InTheOrbit_Data/Managed/Unity.Timeline.dll
+BuildAndRun/InTheOrbit_Data/Managed/Unity.VisualScripting.Core.dll
+BuildAndRun/InTheOrbit_Data/Managed/Unity.VisualScripting.Flow.dll
+BuildAndRun/InTheOrbit_Data/Managed/Unity.VisualScripting.State.dll
+BuildAndRun/InTheOrbit_Data/Managed/UnityEngine.UI.dll

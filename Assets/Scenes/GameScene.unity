@@ -184,6 +184,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1125326013623706774, guid: 2cd805f920638494e9fd0393cb794985, type: 3}
+      propertyPath: m_Name
+      value: Enemy_Healthbar
+      objectReference: {fileID: 0}
     - target: {fileID: 5757185461453892105, guid: 2cd805f920638494e9fd0393cb794985, type: 3}
       propertyPath: m_Name
       value: Enemy
@@ -304,7 +308,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 124430740}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.27310345, y: 0.000000016295404, z: -0.0000000046261968, w: 0.9619847}
+  m_LocalRotation: {x: 0.27310345, y: 0.000000016295402, z: -0.0000000046261963, w: 0.9619847}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -2665,7 +2669,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1528765591}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.25560668, y: -0.000000016892958, z: 0.0000000044663198, w: 0.96678084}
+  m_LocalRotation: {x: 0.25560668, y: 0.000000016376639, z: -0.0000000043298107, w: 0.96678084}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0

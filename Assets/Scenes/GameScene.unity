@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028334, g: 0.22571328, b: 0.3069217, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -240,11 +240,23 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 1595799251903660809, guid: 2cd805f920638494e9fd0393cb794985, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 5757185461453892105, guid: 2cd805f920638494e9fd0393cb794985, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1061177392}
+    - targetCorrespondingSourceObject: {fileID: 5757185461453892105, guid: 2cd805f920638494e9fd0393cb794985, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1061177391}
   m_SourcePrefab: {fileID: 100100000, guid: 2cd805f920638494e9fd0393cb794985, type: 3}
+--- !u!1 &41339470 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5757185461453892105, guid: 2cd805f920638494e9fd0393cb794985, type: 3}
+  m_PrefabInstance: {fileID: 40812567}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &124430740
 GameObject:
   m_ObjectHideFlags: 3
@@ -316,7 +328,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 124430740}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.082381256, y: 0.0013885335, z: -0.0001147794, w: 0.9965999}
+  m_LocalRotation: {x: 0.082381256, y: 0.0013885249, z: -0.00011477869, w: 0.9965999}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -1178,7 +1190,7 @@ GameObject:
   - component: {fileID: 565769151}
   m_Layer: 0
   m_Name: GameObject
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2173,6 +2185,41 @@ Animator:
   m_CorrespondingSourceObject: {fileID: 8918811977119166056, guid: 2cd805f920638494e9fd0393cb794985, type: 3}
   m_PrefabInstance: {fileID: 40812567}
   m_PrefabAsset: {fileID: 0}
+--- !u!143 &1061177389 stripped
+CharacterController:
+  m_CorrespondingSourceObject: {fileID: 92152379435704349, guid: 2cd805f920638494e9fd0393cb794985, type: 3}
+  m_PrefabInstance: {fileID: 40812567}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1061177391
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 41339470}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e5aebd2e2d8b22949877b8c879da5d04, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  controller: {fileID: 1061177389}
+  floatingLevel: 2.25
+--- !u!114 &1061177392
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 41339470}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f291360023cd9a4fb6aec748b52993a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  <Animator>k__BackingField: {fileID: 1061177387}
+  <Controller>k__BackingField: {fileID: 1061177389}
+  <ForceReciever>k__BackingField: {fileID: 1061177391}
+  <PlayerDetectionRange>k__BackingField: 10
 --- !u!1 &1119904070
 GameObject:
   m_ObjectHideFlags: 0
@@ -2880,7 +2927,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1528765591}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.06428792, y: 0.0013903873, z: -0.000089570465, w: 0.9979304}
+  m_LocalRotation: {x: 0.06428792, y: 0.0013903787, z: -0.00008956992, w: 0.9979304}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -4022,7 +4069,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2123005119}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.08238125, y: 0.0013885447, z: -0.000114780305, w: 0.9965999}
+  m_LocalRotation: {x: 0.08238125, y: 0.0013885137, z: -0.00011477776, w: 0.9965999}
   m_LocalPosition: {x: -44.73065, y: -5.855, z: -49.899704}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0

@@ -15,6 +15,16 @@ public abstract class EnemyBaseState : State
     {
         Move(Vector3.zero, deltaTime);
     }
+    protected void FacePlayer() {
+
+        if (GenericStateMachine.Player == null) { return; }
+
+        Vector3 lookPos = GenericStateMachine.Player.transform.position - GenericStateMachine.transform.position;
+        lookPos.y = 0f;
+
+
+        GenericStateMachine.transform.rotation = Quaternion.LookRotation(lookPos);
+    }
 
     protected void Move(Vector3 motion, float deltaTime)
     {
@@ -25,6 +35,6 @@ public abstract class EnemyBaseState : State
     {
         float playerDistanceSqr = (GenericStateMachine.Player.transform.position - GenericStateMachine.transform.position).sqrMagnitude;
         
-        return playerDistanceSqr <= GenericStateMachine.PlayerDetectionRange * GenericStateMachine.PlayerDetectionRange;
+        return playerDistanceSqr <= GenericStateMachine.PlayerChasingRange * GenericStateMachine.PlayerChasingRange;
     }
 }

@@ -58,6 +58,7 @@ public class Health : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Return))
         {
            StartCoroutine(takeDamage(20));
+            Debug.Log("balls");
         }
         if(Input.GetKeyDown(KeyCode.Space))
         {

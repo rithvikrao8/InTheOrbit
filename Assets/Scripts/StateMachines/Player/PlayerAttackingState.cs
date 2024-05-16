@@ -7,6 +7,8 @@ public class PlayerAttackingState : PlayerBaseState
 
     private float previousFrameTime;
 
+    private bool alreadyAppliedForce;
+
     private Attack attack;
 
 
@@ -27,8 +29,13 @@ public class PlayerAttackingState : PlayerBaseState
         FaceTarget();
 
         float normalizedTime =  GetNormalizedTime();
-        if(normalizedTime > previousFrameTime && normalizedTime < 1f)
+        if(normalizedTime >= previousFrameTime && normalizedTime < 1f)
         {
+            if(normalizedTime >= attack.ForceTime)
+            {
+                TryAppplyForce();
+            }
+
             if(GenericStateMachine.InputReader.IsAttacking)
             {
                 TryComboAttack(normalizedTime);
@@ -36,7 +43,14 @@ public class PlayerAttackingState : PlayerBaseState
         }
         else
         {
-            //go back to locomotion
+            if(GenericStateMachine.Targeter.CurrentTarget != null)
+            {
+                GenericStateMachine.SwitchState(new PlayerTargetingState(GenericStateMachine));
+            }
+            else
+            {
+                GenericStateMachine.SwitchState(new PlayerFreeLookState(GenericStateMachine));
+            }
         }
 
         previousFrameTime = normalizedTime;
@@ -57,6 +71,16 @@ public class PlayerAttackingState : PlayerBaseState
             )
         );
     }
+
+    private void TryAppplyForce()
+    {
+        if(alreadyAppliedForce){return;}
+
+        GenericStateMachine.ForceReceiver.AddForce(GenericStateMachine.transform.forward * attack.Force);
+
+        alreadyAppliedForce = true;
+    }
+
 
     public override void Exit()
     {

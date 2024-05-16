@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 2560
     height: 1349
   m_ShowMode: 4
-  m_Title: Hierarchy
+  m_Title: Game
   m_RootView: {fileID: 6}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -48,7 +48,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 100}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 48
+  controlID: 108
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -95,8 +95,8 @@ MonoBehaviour:
     y: 0
     width: 481
     height: 769
-  m_MinSize: {x: 201, y: 221}
-  m_MaxSize: {x: 4001, y: 4021}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 17}
   m_Panes:
   - {fileID: 17}
@@ -225,7 +225,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 49
+  controlID: 58
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -250,7 +250,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 50}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 50
+  controlID: 49
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -300,9 +300,9 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 840
-    width: 1960
-    height: 511
+    y: 842
+    width: 1961
+    height: 509
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -315,7 +315,7 @@ MonoBehaviour:
     m_OverlaysVisible: 1
   m_LockTracker:
     m_IsLocked: 0
-  m_LastSelectedObjectID: 25214
+  m_LastSelectedObjectID: 25550
 --- !u!114 &13
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -338,8 +338,8 @@ MonoBehaviour:
     serializedVersion: 2
     x: 481
     y: 73
-    width: 1478
-    height: 746
+    width: 1479
+    height: 748
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -364,7 +364,7 @@ MonoBehaviour:
       e10: 0
       e11: 1
       e12: 0
-      e13: 248.5
+      e13: 249.5
       e20: 0
       e21: 0
       e22: 1
@@ -373,14 +373,14 @@ MonoBehaviour:
       e31: 0
       e32: 0
       e33: 1
-    - e00: 1.5206349
+    - e00: 1
       e01: 0
       e02: 0
-      e03: -45.82538
+      e03: 143
       e10: 0
-      e11: 1.5206349
+      e11: 1
       e12: 0
-      e13: 135.26826
+      e13: 204.5
       e20: 0
       e21: 0
       e22: 1
@@ -396,7 +396,7 @@ MonoBehaviour:
       e10: 0
       e11: 1
       e12: 0
-      e13: 258.5
+      e13: 259.5
       e20: 0
       e21: 0
       e22: 1
@@ -474,8 +474,8 @@ MonoBehaviour:
   progressMessageClearTime: -1
   notificationClearTime: -1
   timeSinceLastRotation: -1
-  currentBranchAndRemoteHasUpdate: 1
-  currentTrackingStatusHasUpdate: 1
+  currentBranchAndRemoteHasUpdate: 0
+  currentTrackingStatusHasUpdate: 0
   currentStatusEntriesHasUpdate: 1
   repositoryProgressHasUpdate: 1
   appManagerProgressHasUpdate: 1
@@ -574,39 +574,23 @@ MonoBehaviour:
       assets:
         keys:
         - 00000000000000001000000000000000
-        - 4fa6e2aa9890bc242badbf6daa5f923c
-        - a8a43c6e6909eeb4fbee1c4605b3d2bc
-        - 474f1c4dfe9096049ba5ab1fcb1a9cda
         - 6b18a2c4a610c9742ac4c21c9a21ab03
-        - 49ffd628a714f564a99b0725d64eb71f
-        - 23cf463c899e1cc48a51c3cb144796df
-        - 22e41e4c72a60894c99700020cf0d148
-        - ba8ae030f52d4424db6a2186156c150c
-        - b954b869feca7c24e8026780fe16fbb0
-        - 9ef5453fa6221b64e95c0cfaf3ee7c13
-        - 8a8880442261f9e43a2c5b89bf5a3fe2
-        - fb0d273ff5f4e494ba4530060f140c85
-        - 615240a35020f90448bd1387ed71ed99
         - 4daaaa8fe1aab7b498c902c467089891
-        - 1b24b7211cdc8f1448274a33a7bac360
-        - 72a97d5a1b4cd00488509d26b6186286
-        - 9a9668dd0126a234db37aeb2e80695fa
-        - 70935ebf9fb144a449bbe912b9e4dcd2
-        - c1aa448c4c958d843a191bcf0890103e
-        - bd6ee82c5e06b3f4f86113cbf8261ae1
+        - 78f684ebff80eab46a772c55db45200f
+        - 19faf82130c3e614f9bb522b756b5390
         - 6ea315d0fd7389c41b19996891e99ae3
+        - b679501f06305a144b700979ec5f5854
         - 828ea99de71c918459d32ff81bff1f34
-        - 710a3be95dabf244dbc9d561a0000717
-        - 43210ca46da7e314e82fef4fefb6546b
-        - 1bad35710d86901478828544d2a43e87
         - 32f54737b7f163e4fad4236a4a8bce31
+        - 3dd4961c05823694199c53180651207b
         - 382af6bf2ce80124ead1b28175c79f12
         - d49533b76d17dca47870f2e2372b4ba8
-        - 8fdc5e2aac87edc4c8fcdfd5e9f40d8e
         - 5f291360023cd9a4fb6aec748b52993a
+        - e42e4fb0fb7342d4ba5d1f057d0bd9ce
+        - a132b8a098b82a34290bdfc92f4aa02e
+        - c28edc9c80fa135418d25094895d3388
+        - 8932f46d61bd386458bf6dc7ab55c544
         - 96ce58e52f94a294aa90a06ff04cf1d8
-        - 9a6e1369fef02bb42af95b50ee525d81
-        - 00000000000000003000000000000000
         values:
         - path: Assets
           label: Assets
@@ -626,60 +610,6 @@ MonoBehaviour:
             originalPath: 
             indexStatus: 0
             workTreeStatus: 0
-        - path: Assets\Animations
-          label: Animations
-          level: 1
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: Assets\Animations\Enemy
-          label: Enemy
-          level: 2
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: Assets\Animations\Enemy\EnemyIdleState.cs
-          label: EnemyIdleState.cs
-          level: 3
-          isFolder: 0
-          isContainer: 1
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: Assets\Animations\Enemy\EnemyIdleState.cs
-            fullPath: C:\Users\Rithvik\development\InTheOrbit\Assets\Animations\Enemy\EnemyIdleState.cs
-            projectPath: Assets\Animations\Enemy\EnemyIdleState.cs
-            originalPath: 
-            indexStatus: 1
-            workTreeStatus: 1
         - path: Assets\Enemy2
           label: Enemy2
           level: 1
@@ -698,177 +628,11 @@ MonoBehaviour:
             originalPath: 
             indexStatus: 0
             workTreeStatus: 0
-        - path: Assets\Enemy2\Attack.anim
-          label: Attack.anim
-          level: 2
-          isFolder: 0
-          isContainer: 1
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: Assets\Enemy2\Attack.anim
-            fullPath: C:\Users\Rithvik\development\InTheOrbit\Assets\Enemy2\Attack.anim
-            projectPath: Assets\Enemy2\Attack.anim
-            originalPath: 
-            indexStatus: 1
-            workTreeStatus: 1
-        - path: Assets\Enemy2\Boss 2 (1) (2).fbx
-          label: Boss 2 (1) (2).fbx
-          level: 2
-          isFolder: 0
-          isContainer: 1
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: Assets\Enemy2\Boss 2 (1) (2).fbx
-            fullPath: C:\Users\Rithvik\development\InTheOrbit\Assets\Enemy2\Boss
-              2 (1) (2).fbx
-            projectPath: Assets\Enemy2\Boss 2 (1) (2).fbx
-            originalPath: 
-            indexStatus: 1
-            workTreeStatus: 1
-        - path: Assets\Enemy2\Boss 2 (1)@Sad Idle (1).fbx
-          label: Boss 2 (1)@Sad Idle (1).fbx
-          level: 2
-          isFolder: 0
-          isContainer: 1
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: Assets\Enemy2\Boss 2 (1)@Sad Idle (1).fbx
-            fullPath: C:\Users\Rithvik\development\InTheOrbit\Assets\Enemy2\Boss
-              2 (1)@Sad Idle (1).fbx
-            projectPath: Assets\Enemy2\Boss 2 (1)@Sad Idle (1).fbx
-            originalPath: 
-            indexStatus: 1
-            workTreeStatus: 1
-        - path: Assets\Enemy2\Boss 2 (1)@Stomp.fbx
-          label: Boss 2 (1)@Stomp.fbx
-          level: 2
-          isFolder: 0
-          isContainer: 1
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: Assets\Enemy2\Boss 2 (1)@Stomp.fbx
-            fullPath: C:\Users\Rithvik\development\InTheOrbit\Assets\Enemy2\Boss
-              2 (1)@Stomp.fbx
-            projectPath: Assets\Enemy2\Boss 2 (1)@Stomp.fbx
-            originalPath: 
-            indexStatus: 1
-            workTreeStatus: 1
-        - path: Assets\Enemy2\Boss 2 (1)@Zombie Running.fbx
-          label: Boss 2 (1)@Zombie Running.fbx
-          level: 2
-          isFolder: 0
-          isContainer: 1
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: Assets\Enemy2\Boss 2 (1)@Zombie Running.fbx
-            fullPath: C:\Users\Rithvik\development\InTheOrbit\Assets\Enemy2\Boss
-              2 (1)@Zombie Running.fbx
-            projectPath: Assets\Enemy2\Boss 2 (1)@Zombie Running.fbx
-            originalPath: 
-            indexStatus: 1
-            workTreeStatus: 1
-        - path: Assets\Enemy2\Boss2.controller
-          label: Boss2.controller
-          level: 2
-          isFolder: 0
-          isContainer: 1
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: Assets\Enemy2\Boss2.controller
-            fullPath: C:\Users\Rithvik\development\InTheOrbit\Assets\Enemy2\Boss2.controller
-            projectPath: Assets\Enemy2\Boss2.controller
-            originalPath: 
-            indexStatus: 1
-            workTreeStatus: 1
-        - path: Assets\Enemy2\BossIdle.anim
-          label: BossIdle.anim
-          level: 2
-          isFolder: 0
-          isContainer: 1
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: Assets\Enemy2\BossIdle.anim
-            fullPath: C:\Users\Rithvik\development\InTheOrbit\Assets\Enemy2\BossIdle.anim
-            projectPath: Assets\Enemy2\BossIdle.anim
-            originalPath: 
-            indexStatus: 1
-            workTreeStatus: 1
-        - path: Assets\Enemy2\Bossrunning.anim
-          label: Bossrunning.anim
-          level: 2
-          isFolder: 0
-          isContainer: 1
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: Assets\Enemy2\Bossrunning.anim
-            fullPath: C:\Users\Rithvik\development\InTheOrbit\Assets\Enemy2\Bossrunning.anim
-            projectPath: Assets\Enemy2\Bossrunning.anim
-            originalPath: 
-            indexStatus: 1
-            workTreeStatus: 1
-        - path: Assets\Enemy2\Enemy2.prefab
-          label: Enemy2.prefab
-          level: 2
-          isFolder: 0
-          isContainer: 1
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: Assets\Enemy2\Enemy2.prefab
-            fullPath: C:\Users\Rithvik\development\InTheOrbit\Assets\Enemy2\Enemy2.prefab
-            projectPath: Assets\Enemy2\Enemy2.prefab
-            originalPath: 
-            indexStatus: 1
-            workTreeStatus: 1
         - path: Assets\Enemy2\EnemyAttackingState.cs
           label: EnemyAttackingState.cs
           level: 2
           isFolder: 0
-          isContainer: 1
+          isContainer: 0
           isCollapsed: 0
           isHidden: 0
           isActive: 0
@@ -880,101 +644,11 @@ MonoBehaviour:
             fullPath: C:\Users\Rithvik\development\InTheOrbit\Assets\Enemy2\EnemyAttackingState.cs
             projectPath: Assets\Enemy2\EnemyAttackingState.cs
             originalPath: 
-            indexStatus: 1
-            workTreeStatus: 1
-        - path: Assets\Enemy2\EnemyChasingState.cs
-          label: EnemyChasingState.cs
-          level: 2
-          isFolder: 0
-          isContainer: 1
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: Assets\Enemy2\EnemyChasingState.cs
-            fullPath: C:\Users\Rithvik\development\InTheOrbit\Assets\Enemy2\EnemyChasingState.cs
-            projectPath: Assets\Enemy2\EnemyChasingState.cs
-            originalPath: 
-            indexStatus: 1
-            workTreeStatus: 1
-        - path: Assets\Jammo-Character
-          label: Jammo-Character
+            indexStatus: 0
+            workTreeStatus: 3
+        - path: Assets\Health.cs
+          label: Health.cs
           level: 1
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: Assets\Jammo-Character\Models
-          label: Models
-          level: 2
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: Assets\Jammo-Character\Models\Jammo_LowPoly.prefab
-          label: Jammo_LowPoly.prefab
-          level: 3
-          isFolder: 0
-          isContainer: 1
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: Assets\Jammo-Character\Models\Jammo_LowPoly.prefab
-            fullPath: C:\Users\Rithvik\development\InTheOrbit\Assets\Jammo-Character\Models\Jammo_LowPoly.prefab
-            projectPath: Assets\Jammo-Character\Models\Jammo_LowPoly.prefab
-            originalPath: 
-            indexStatus: 1
-            workTreeStatus: 1
-        - path: Assets\Jammo-Character\Prefabs
-          label: Prefabs
-          level: 2
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: Assets\Jammo-Character\Prefabs\Jammo_Player.prefab
-          label: Jammo_Player.prefab
-          level: 3
           isFolder: 0
           isContainer: 0
           isCollapsed: 0
@@ -984,12 +658,30 @@ MonoBehaviour:
           checkState: 0
           isLocked: 0
           gitStatusEntry:
-            path: Assets\Jammo-Character\Prefabs\Jammo_Player.prefab
-            fullPath: C:\Users\Rithvik\development\InTheOrbit\Assets\Jammo-Character\Prefabs\Jammo_Player.prefab
-            projectPath: Assets\Jammo-Character\Prefabs\Jammo_Player.prefab
+            path: Assets\Health.cs
+            fullPath: C:\Users\Rithvik\development\InTheOrbit\Assets\Health.cs
+            projectPath: Assets\Health.cs
             originalPath: 
             indexStatus: 0
             workTreeStatus: 3
+        - path: Assets\HealthSystem.cs
+          label: HealthSystem.cs
+          level: 1
+          isFolder: 0
+          isContainer: 1
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets\HealthSystem.cs
+            fullPath: C:\Users\Rithvik\development\InTheOrbit\Assets\HealthSystem.cs
+            projectPath: Assets\HealthSystem.cs
+            originalPath: 
+            indexStatus: 1
+            workTreeStatus: 1
         - path: Assets\Scenes
           label: Scenes
           level: 1
@@ -1008,6 +700,24 @@ MonoBehaviour:
             originalPath: 
             indexStatus: 0
             workTreeStatus: 0
+        - path: Assets\Scenes\Canvas.prefab
+          label: Canvas.prefab
+          level: 2
+          isFolder: 0
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets\Scenes\Canvas.prefab
+            fullPath: C:\Users\Rithvik\development\InTheOrbit\Assets\Scenes\Canvas.prefab
+            projectPath: Assets\Scenes\Canvas.prefab
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 3
         - path: Assets\Scenes\GameScene.unity
           label: GameScene.unity
           level: 2
@@ -1026,61 +736,6 @@ MonoBehaviour:
             originalPath: 
             indexStatus: 0
             workTreeStatus: 3
-        - path: Assets\Scenes\GameScene
-          label: GameScene
-          level: 2
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: Assets\Scenes\GameScene\NavMesh-World 1.asset
-          label: NavMesh-World 1.asset
-          level: 3
-          isFolder: 0
-          isContainer: 1
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: Assets\Scenes\GameScene\NavMesh-World 1.asset
-            fullPath: C:\Users\Rithvik\development\InTheOrbit\Assets\Scenes\GameScene\NavMesh-World
-              1.asset
-            projectPath: Assets\Scenes\GameScene\NavMesh-World 1.asset
-            originalPath: 
-            indexStatus: 1
-            workTreeStatus: 1
-        - path: Assets\Scenes\GameScene\NavMesh-World.asset
-          label: NavMesh-World.asset
-          level: 3
-          isFolder: 0
-          isContainer: 1
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: Assets\Scenes\GameScene\NavMesh-World.asset
-            fullPath: C:\Users\Rithvik\development\InTheOrbit\Assets\Scenes\GameScene\NavMesh-World.asset
-            projectPath: Assets\Scenes\GameScene\NavMesh-World.asset
-            originalPath: 
-            indexStatus: 1
-            workTreeStatus: 1
         - path: Assets\Scripts
           label: Scripts
           level: 1
@@ -1099,6 +754,24 @@ MonoBehaviour:
             originalPath: 
             indexStatus: 0
             workTreeStatus: 0
+        - path: Assets\Scripts\ForceReceiver.cs
+          label: ForceReceiver.cs
+          level: 2
+          isFolder: 0
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets\Scripts\ForceReceiver.cs
+            fullPath: C:\Users\Rithvik\development\InTheOrbit\Assets\Scripts\ForceReceiver.cs
+            projectPath: Assets\Scripts\ForceReceiver.cs
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 3
         - path: Assets\Scripts\StateMachines
           label: StateMachines
           level: 2
@@ -1135,29 +808,11 @@ MonoBehaviour:
             originalPath: 
             indexStatus: 0
             workTreeStatus: 0
-        - path: Assets\Scripts\StateMachines\Enemy\EnemyBaseState.cs
-          label: EnemyBaseState.cs
-          level: 4
-          isFolder: 0
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: Assets\Scripts\StateMachines\Enemy\EnemyBaseState.cs
-            fullPath: C:\Users\Rithvik\development\InTheOrbit\Assets\Scripts\StateMachines\Enemy\EnemyBaseState.cs
-            projectPath: Assets\Scripts\StateMachines\Enemy\EnemyBaseState.cs
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 3
         - path: Assets\Scripts\StateMachines\Enemy\EnemyStateMachine.cs
           label: EnemyStateMachine.cs
           level: 4
           isFolder: 0
-          isContainer: 1
+          isContainer: 0
           isCollapsed: 0
           isHidden: 0
           isActive: 0
@@ -1171,11 +826,83 @@ MonoBehaviour:
             originalPath: 
             indexStatus: 0
             workTreeStatus: 3
+        - path: Assets\Scripts\StateMachines\Player
+          label: Player
+          level: 3
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: Assets\Scripts\StateMachines\Player\Attack.cs
+          label: Attack.cs
+          level: 4
+          isFolder: 0
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets\Scripts\StateMachines\Player\Attack.cs
+            fullPath: C:\Users\Rithvik\development\InTheOrbit\Assets\Scripts\StateMachines\Player\Attack.cs
+            projectPath: Assets\Scripts\StateMachines\Player\Attack.cs
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 3
+        - path: Assets\Scripts\StateMachines\Player\PlayerAttackingState.cs
+          label: PlayerAttackingState.cs
+          level: 4
+          isFolder: 0
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets\Scripts\StateMachines\Player\PlayerAttackingState.cs
+            fullPath: C:\Users\Rithvik\development\InTheOrbit\Assets\Scripts\StateMachines\Player\PlayerAttackingState.cs
+            projectPath: Assets\Scripts\StateMachines\Player\PlayerAttackingState.cs
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 3
+        - path: Assets\Scripts\StateMachines\State.cs
+          label: State.cs
+          level: 3
+          isFolder: 0
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets\Scripts\StateMachines\State.cs
+            fullPath: C:\Users\Rithvik\development\InTheOrbit\Assets\Scripts\StateMachines\State.cs
+            projectPath: Assets\Scripts\StateMachines\State.cs
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 3
         - path: Assets\WeaponDamage.cs
           label: WeaponDamage.cs
           level: 1
           isFolder: 0
-          isContainer: 1
+          isContainer: 0
           isCollapsed: 0
           isHidden: 0
           isActive: 0
@@ -1187,120 +914,21 @@ MonoBehaviour:
             fullPath: C:\Users\Rithvik\development\InTheOrbit\Assets\WeaponDamage.cs
             projectPath: Assets\WeaponDamage.cs
             originalPath: 
-            indexStatus: 1
-            workTreeStatus: 1
-        - path: Assets\WeaponHandler.cs
-          label: WeaponHandler.cs
-          level: 1
-          isFolder: 0
-          isContainer: 1
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: Assets\WeaponHandler.cs
-            fullPath: C:\Users\Rithvik\development\InTheOrbit\Assets\WeaponHandler.cs
-            projectPath: Assets\WeaponHandler.cs
-            originalPath: 
-            indexStatus: 1
-            workTreeStatus: 1
-        - path: ProjectSettings\TagManager.asset
-          label: TagManager.asset
-          level: 1
-          isFolder: 0
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: ProjectSettings\TagManager.asset
-            fullPath: C:\Users\Rithvik\development\InTheOrbit\ProjectSettings\TagManager.asset
-            projectPath: ProjectSettings\TagManager.asset
-            originalPath: 
             indexStatus: 0
             workTreeStatus: 3
       folders:
         keys:
-        - .idea
         - Assets
-        - Assets\Animations
-        - Assets\Animations\Enemy
         - Assets\Enemy2
-        - Assets\Jammo-Character
-        - Assets\Jammo-Character\Models
-        - Assets\Jammo-Character\Prefabs
         - Assets\Scenes
-        - Assets\Scenes\GameScene
         - Assets\Scripts
         - Assets\Scripts\StateMachines
         - Assets\Scripts\StateMachines\Enemy
-        - ProjectSettings
-        - UserSettings
-        - UserSettings\Layouts
+        - Assets\Scripts\StateMachines\Player
         values:
-        - path: .idea
-          label: .idea
-          level: 0
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
         - path: Assets
           label: Assets
           level: 0
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: Assets\Animations
-          label: Animations
-          level: 1
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: Assets\Animations\Enemy
-          label: Enemy
-          level: 2
           isFolder: 1
           isContainer: 0
           isCollapsed: 0
@@ -1334,81 +962,9 @@ MonoBehaviour:
             originalPath: 
             indexStatus: 0
             workTreeStatus: 0
-        - path: Assets\Jammo-Character
-          label: Jammo-Character
-          level: 1
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: Assets\Jammo-Character\Models
-          label: Models
-          level: 2
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: Assets\Jammo-Character\Prefabs
-          label: Prefabs
-          level: 2
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
         - path: Assets\Scenes
           label: Scenes
           level: 1
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: Assets\Scenes\GameScene
-          label: GameScene
-          level: 2
           isFolder: 1
           isContainer: 0
           isCollapsed: 0
@@ -1478,45 +1034,9 @@ MonoBehaviour:
             originalPath: 
             indexStatus: 0
             workTreeStatus: 0
-        - path: ProjectSettings
-          label: ProjectSettings
-          level: 0
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: UserSettings
-          label: UserSettings
-          level: 0
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: UserSettings\Layouts
-          label: Layouts
-          level: 1
+        - path: Assets\Scripts\StateMachines\Player
+          label: Player
+          level: 3
           isFolder: 1
           isContainer: 0
           isCollapsed: 0
@@ -1560,114 +1080,6 @@ MonoBehaviour:
           originalPath: 
           indexStatus: 0
           workTreeStatus: 0
-      - path: .idea
-        label: .idea
-        level: 0
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 0
-      - path: .idea\.gitignore
-        label: .gitignore
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: .idea\.gitignore
-          fullPath: C:\Users\Rithvik\development\InTheOrbit\.idea\.gitignore
-          projectPath: .idea\.gitignore
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: .idea\InTheOrbit.iml
-        label: InTheOrbit.iml
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: .idea\InTheOrbit.iml
-          fullPath: C:\Users\Rithvik\development\InTheOrbit\.idea\InTheOrbit.iml
-          projectPath: .idea\InTheOrbit.iml
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: .idea\misc.xml
-        label: misc.xml
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: .idea\misc.xml
-          fullPath: C:\Users\Rithvik\development\InTheOrbit\.idea\misc.xml
-          projectPath: .idea\misc.xml
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: .idea\modules.xml
-        label: modules.xml
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: .idea\modules.xml
-          fullPath: C:\Users\Rithvik\development\InTheOrbit\.idea\modules.xml
-          projectPath: .idea\modules.xml
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: .idea\vcs.xml
-        label: vcs.xml
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: .idea\vcs.xml
-          fullPath: C:\Users\Rithvik\development\InTheOrbit\.idea\vcs.xml
-          projectPath: .idea\vcs.xml
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
       - path: Assets
         label: Assets
         level: 0
@@ -1686,96 +1098,6 @@ MonoBehaviour:
           originalPath: 
           indexStatus: 0
           workTreeStatus: 0
-      - path: Assets\Animations
-        label: Animations
-        level: 1
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 0
-      - path: Assets\Animations\Enemy
-        label: Enemy
-        level: 2
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 0
-      - path: Assets\Animations\Enemy\EnemyIdleState.cs
-        label: EnemyIdleState.cs
-        level: 3
-        isFolder: 0
-        isContainer: 1
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Animations\Enemy\EnemyIdleState.cs
-          fullPath: C:\Users\Rithvik\development\InTheOrbit\Assets\Animations\Enemy\EnemyIdleState.cs
-          projectPath: Assets\Animations\Enemy\EnemyIdleState.cs
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets\Animations\Enemy\EnemyIdleState.cs.meta
-        label: EnemyIdleState.cs.meta
-        level: 4
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Animations\Enemy\EnemyIdleState.cs.meta
-          fullPath: C:\Users\Rithvik\development\InTheOrbit\Assets\Animations\Enemy\EnemyIdleState.cs.meta
-          projectPath: Assets\Animations\Enemy\EnemyIdleState.cs.meta
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets\Enemy2.meta
-        label: Enemy2.meta
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Enemy2.meta
-          fullPath: C:\Users\Rithvik\development\InTheOrbit\Assets\Enemy2.meta
-          projectPath: Assets\Enemy2.meta
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
       - path: Assets\Enemy2
         label: Enemy2
         level: 1
@@ -1794,343 +1116,11 @@ MonoBehaviour:
           originalPath: 
           indexStatus: 0
           workTreeStatus: 0
-      - path: Assets\Enemy2\Attack.anim
-        label: Attack.anim
-        level: 2
-        isFolder: 0
-        isContainer: 1
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Enemy2\Attack.anim
-          fullPath: C:\Users\Rithvik\development\InTheOrbit\Assets\Enemy2\Attack.anim
-          projectPath: Assets\Enemy2\Attack.anim
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets\Enemy2\Attack.anim.meta
-        label: Attack.anim.meta
-        level: 3
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Enemy2\Attack.anim.meta
-          fullPath: C:\Users\Rithvik\development\InTheOrbit\Assets\Enemy2\Attack.anim.meta
-          projectPath: Assets\Enemy2\Attack.anim.meta
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets\Enemy2\Boss 2 (1) (2).fbx
-        label: Boss 2 (1) (2).fbx
-        level: 2
-        isFolder: 0
-        isContainer: 1
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Enemy2\Boss 2 (1) (2).fbx
-          fullPath: C:\Users\Rithvik\development\InTheOrbit\Assets\Enemy2\Boss 2
-            (1) (2).fbx
-          projectPath: Assets\Enemy2\Boss 2 (1) (2).fbx
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets\Enemy2\Boss 2 (1) (2).fbx.meta
-        label: Boss 2 (1) (2).fbx.meta
-        level: 3
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Enemy2\Boss 2 (1) (2).fbx.meta
-          fullPath: C:\Users\Rithvik\development\InTheOrbit\Assets\Enemy2\Boss 2
-            (1) (2).fbx.meta
-          projectPath: Assets\Enemy2\Boss 2 (1) (2).fbx.meta
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets\Enemy2\Boss 2 (1)@Sad Idle (1).fbx
-        label: Boss 2 (1)@Sad Idle (1).fbx
-        level: 2
-        isFolder: 0
-        isContainer: 1
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Enemy2\Boss 2 (1)@Sad Idle (1).fbx
-          fullPath: C:\Users\Rithvik\development\InTheOrbit\Assets\Enemy2\Boss 2
-            (1)@Sad Idle (1).fbx
-          projectPath: Assets\Enemy2\Boss 2 (1)@Sad Idle (1).fbx
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets\Enemy2\Boss 2 (1)@Sad Idle (1).fbx.meta
-        label: Boss 2 (1)@Sad Idle (1).fbx.meta
-        level: 3
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Enemy2\Boss 2 (1)@Sad Idle (1).fbx.meta
-          fullPath: C:\Users\Rithvik\development\InTheOrbit\Assets\Enemy2\Boss 2
-            (1)@Sad Idle (1).fbx.meta
-          projectPath: Assets\Enemy2\Boss 2 (1)@Sad Idle (1).fbx.meta
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets\Enemy2\Boss 2 (1)@Stomp.fbx
-        label: Boss 2 (1)@Stomp.fbx
-        level: 2
-        isFolder: 0
-        isContainer: 1
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Enemy2\Boss 2 (1)@Stomp.fbx
-          fullPath: C:\Users\Rithvik\development\InTheOrbit\Assets\Enemy2\Boss 2
-            (1)@Stomp.fbx
-          projectPath: Assets\Enemy2\Boss 2 (1)@Stomp.fbx
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets\Enemy2\Boss 2 (1)@Stomp.fbx.meta
-        label: Boss 2 (1)@Stomp.fbx.meta
-        level: 3
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Enemy2\Boss 2 (1)@Stomp.fbx.meta
-          fullPath: C:\Users\Rithvik\development\InTheOrbit\Assets\Enemy2\Boss 2
-            (1)@Stomp.fbx.meta
-          projectPath: Assets\Enemy2\Boss 2 (1)@Stomp.fbx.meta
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets\Enemy2\Boss 2 (1)@Zombie Running.fbx
-        label: Boss 2 (1)@Zombie Running.fbx
-        level: 2
-        isFolder: 0
-        isContainer: 1
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Enemy2\Boss 2 (1)@Zombie Running.fbx
-          fullPath: C:\Users\Rithvik\development\InTheOrbit\Assets\Enemy2\Boss 2
-            (1)@Zombie Running.fbx
-          projectPath: Assets\Enemy2\Boss 2 (1)@Zombie Running.fbx
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets\Enemy2\Boss 2 (1)@Zombie Running.fbx.meta
-        label: Boss 2 (1)@Zombie Running.fbx.meta
-        level: 3
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Enemy2\Boss 2 (1)@Zombie Running.fbx.meta
-          fullPath: C:\Users\Rithvik\development\InTheOrbit\Assets\Enemy2\Boss 2
-            (1)@Zombie Running.fbx.meta
-          projectPath: Assets\Enemy2\Boss 2 (1)@Zombie Running.fbx.meta
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets\Enemy2\Boss2.controller
-        label: Boss2.controller
-        level: 2
-        isFolder: 0
-        isContainer: 1
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Enemy2\Boss2.controller
-          fullPath: C:\Users\Rithvik\development\InTheOrbit\Assets\Enemy2\Boss2.controller
-          projectPath: Assets\Enemy2\Boss2.controller
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets\Enemy2\Boss2.controller.meta
-        label: Boss2.controller.meta
-        level: 3
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Enemy2\Boss2.controller.meta
-          fullPath: C:\Users\Rithvik\development\InTheOrbit\Assets\Enemy2\Boss2.controller.meta
-          projectPath: Assets\Enemy2\Boss2.controller.meta
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets\Enemy2\BossIdle.anim
-        label: BossIdle.anim
-        level: 2
-        isFolder: 0
-        isContainer: 1
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Enemy2\BossIdle.anim
-          fullPath: C:\Users\Rithvik\development\InTheOrbit\Assets\Enemy2\BossIdle.anim
-          projectPath: Assets\Enemy2\BossIdle.anim
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets\Enemy2\BossIdle.anim.meta
-        label: BossIdle.anim.meta
-        level: 3
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Enemy2\BossIdle.anim.meta
-          fullPath: C:\Users\Rithvik\development\InTheOrbit\Assets\Enemy2\BossIdle.anim.meta
-          projectPath: Assets\Enemy2\BossIdle.anim.meta
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets\Enemy2\Bossrunning.anim
-        label: Bossrunning.anim
-        level: 2
-        isFolder: 0
-        isContainer: 1
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Enemy2\Bossrunning.anim
-          fullPath: C:\Users\Rithvik\development\InTheOrbit\Assets\Enemy2\Bossrunning.anim
-          projectPath: Assets\Enemy2\Bossrunning.anim
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets\Enemy2\Bossrunning.anim.meta
-        label: Bossrunning.anim.meta
-        level: 3
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Enemy2\Bossrunning.anim.meta
-          fullPath: C:\Users\Rithvik\development\InTheOrbit\Assets\Enemy2\Bossrunning.anim.meta
-          projectPath: Assets\Enemy2\Bossrunning.anim.meta
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets\Enemy2\Enemy2.prefab
-        label: Enemy2.prefab
-        level: 2
-        isFolder: 0
-        isContainer: 1
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Enemy2\Enemy2.prefab
-          fullPath: C:\Users\Rithvik\development\InTheOrbit\Assets\Enemy2\Enemy2.prefab
-          projectPath: Assets\Enemy2\Enemy2.prefab
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets\Enemy2\Enemy2.prefab.meta
-        label: Enemy2.prefab.meta
-        level: 3
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Enemy2\Enemy2.prefab.meta
-          fullPath: C:\Users\Rithvik\development\InTheOrbit\Assets\Enemy2\Enemy2.prefab.meta
-          projectPath: Assets\Enemy2\Enemy2.prefab.meta
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
       - path: Assets\Enemy2\EnemyAttackingState.cs
         label: EnemyAttackingState.cs
         level: 2
         isFolder: 0
-        isContainer: 1
+        isContainer: 0
         isCollapsed: 0
         isHidden: 0
         isActive: 0
@@ -2142,119 +1132,11 @@ MonoBehaviour:
           fullPath: C:\Users\Rithvik\development\InTheOrbit\Assets\Enemy2\EnemyAttackingState.cs
           projectPath: Assets\Enemy2\EnemyAttackingState.cs
           originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets\Enemy2\EnemyAttackingState.cs.meta
-        label: EnemyAttackingState.cs.meta
-        level: 3
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Enemy2\EnemyAttackingState.cs.meta
-          fullPath: C:\Users\Rithvik\development\InTheOrbit\Assets\Enemy2\EnemyAttackingState.cs.meta
-          projectPath: Assets\Enemy2\EnemyAttackingState.cs.meta
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets\Enemy2\EnemyChasingState.cs
-        label: EnemyChasingState.cs
-        level: 2
-        isFolder: 0
-        isContainer: 1
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Enemy2\EnemyChasingState.cs
-          fullPath: C:\Users\Rithvik\development\InTheOrbit\Assets\Enemy2\EnemyChasingState.cs
-          projectPath: Assets\Enemy2\EnemyChasingState.cs
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets\Enemy2\EnemyChasingState.cs.meta
-        label: EnemyChasingState.cs.meta
-        level: 3
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Enemy2\EnemyChasingState.cs.meta
-          fullPath: C:\Users\Rithvik\development\InTheOrbit\Assets\Enemy2\EnemyChasingState.cs.meta
-          projectPath: Assets\Enemy2\EnemyChasingState.cs.meta
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets\Jammo-Character
-        label: Jammo-Character
+          indexStatus: 0
+          workTreeStatus: 3
+      - path: Assets\Health.cs
+        label: Health.cs
         level: 1
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 0
-      - path: Assets\Jammo-Character\Models
-        label: Models
-        level: 2
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 0
-      - path: Assets\Jammo-Character\Models\Jammo_LowPoly.prefab
-        label: Jammo_LowPoly.prefab
-        level: 3
-        isFolder: 0
-        isContainer: 1
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Jammo-Character\Models\Jammo_LowPoly.prefab
-          fullPath: C:\Users\Rithvik\development\InTheOrbit\Assets\Jammo-Character\Models\Jammo_LowPoly.prefab
-          projectPath: Assets\Jammo-Character\Models\Jammo_LowPoly.prefab
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets\Jammo-Character\Models\Jammo_LowPoly.prefab.meta
-        label: Jammo_LowPoly.prefab.meta
-        level: 4
         isFolder: 0
         isContainer: 0
         isCollapsed: 0
@@ -2264,50 +1146,14 @@ MonoBehaviour:
         checkState: 0
         isLocked: 0
         gitStatusEntry:
-          path: Assets\Jammo-Character\Models\Jammo_LowPoly.prefab.meta
-          fullPath: C:\Users\Rithvik\development\InTheOrbit\Assets\Jammo-Character\Models\Jammo_LowPoly.prefab.meta
-          projectPath: Assets\Jammo-Character\Models\Jammo_LowPoly.prefab.meta
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets\Jammo-Character\Prefabs
-        label: Prefabs
-        level: 2
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 0
-      - path: Assets\Jammo-Character\Prefabs\Jammo_Player.prefab
-        label: Jammo_Player.prefab
-        level: 3
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Jammo-Character\Prefabs\Jammo_Player.prefab
-          fullPath: C:\Users\Rithvik\development\InTheOrbit\Assets\Jammo-Character\Prefabs\Jammo_Player.prefab
-          projectPath: Assets\Jammo-Character\Prefabs\Jammo_Player.prefab
+          path: Assets\Health.cs
+          fullPath: C:\Users\Rithvik\development\InTheOrbit\Assets\Health.cs
+          projectPath: Assets\Health.cs
           originalPath: 
           indexStatus: 0
           workTreeStatus: 3
-      - path: Assets\NewBehaviourScript.cs
-        label: NewBehaviourScript.cs
+      - path: Assets\HealthSystem.cs
+        label: HealthSystem.cs
         level: 1
         isFolder: 0
         isContainer: 1
@@ -2318,14 +1164,14 @@ MonoBehaviour:
         checkState: 0
         isLocked: 0
         gitStatusEntry:
-          path: Assets\NewBehaviourScript.cs
-          fullPath: C:\Users\Rithvik\development\InTheOrbit\Assets\NewBehaviourScript.cs
-          projectPath: Assets\NewBehaviourScript.cs
+          path: Assets\HealthSystem.cs
+          fullPath: C:\Users\Rithvik\development\InTheOrbit\Assets\HealthSystem.cs
+          projectPath: Assets\HealthSystem.cs
           originalPath: 
-          indexStatus: 0
-          workTreeStatus: 5
-      - path: Assets\NewBehaviourScript.cs.meta
-        label: NewBehaviourScript.cs.meta
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\HealthSystem.cs.meta
+        label: HealthSystem.cs.meta
         level: 2
         isFolder: 0
         isContainer: 0
@@ -2336,12 +1182,12 @@ MonoBehaviour:
         checkState: 0
         isLocked: 0
         gitStatusEntry:
-          path: Assets\NewBehaviourScript.cs.meta
-          fullPath: C:\Users\Rithvik\development\InTheOrbit\Assets\NewBehaviourScript.cs.meta
-          projectPath: Assets\NewBehaviourScript.cs.meta
+          path: Assets\HealthSystem.cs.meta
+          fullPath: C:\Users\Rithvik\development\InTheOrbit\Assets\HealthSystem.cs.meta
+          projectPath: Assets\HealthSystem.cs.meta
           originalPath: 
-          indexStatus: 0
-          workTreeStatus: 5
+          indexStatus: 1
+          workTreeStatus: 1
       - path: Assets\Scenes
         label: Scenes
         level: 1
@@ -2360,8 +1206,8 @@ MonoBehaviour:
           originalPath: 
           indexStatus: 0
           workTreeStatus: 0
-      - path: Assets\Scenes\GameScene.meta
-        label: GameScene.meta
+      - path: Assets\Scenes\Canvas.prefab
+        label: Canvas.prefab
         level: 2
         isFolder: 0
         isContainer: 0
@@ -2372,12 +1218,12 @@ MonoBehaviour:
         checkState: 0
         isLocked: 0
         gitStatusEntry:
-          path: Assets\Scenes\GameScene.meta
-          fullPath: C:\Users\Rithvik\development\InTheOrbit\Assets\Scenes\GameScene.meta
-          projectPath: Assets\Scenes\GameScene.meta
+          path: Assets\Scenes\Canvas.prefab
+          fullPath: C:\Users\Rithvik\development\InTheOrbit\Assets\Scenes\Canvas.prefab
+          projectPath: Assets\Scenes\Canvas.prefab
           originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
+          indexStatus: 0
+          workTreeStatus: 3
       - path: Assets\Scenes\GameScene.unity
         label: GameScene.unity
         level: 2
@@ -2396,98 +1242,6 @@ MonoBehaviour:
           originalPath: 
           indexStatus: 0
           workTreeStatus: 3
-      - path: Assets\Scenes\GameScene
-        label: GameScene
-        level: 2
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 0
-      - path: Assets\Scenes\GameScene\NavMesh-World 1.asset
-        label: NavMesh-World 1.asset
-        level: 3
-        isFolder: 0
-        isContainer: 1
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Scenes\GameScene\NavMesh-World 1.asset
-          fullPath: C:\Users\Rithvik\development\InTheOrbit\Assets\Scenes\GameScene\NavMesh-World
-            1.asset
-          projectPath: Assets\Scenes\GameScene\NavMesh-World 1.asset
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets\Scenes\GameScene\NavMesh-World 1.asset.meta
-        label: NavMesh-World 1.asset.meta
-        level: 4
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Scenes\GameScene\NavMesh-World 1.asset.meta
-          fullPath: C:\Users\Rithvik\development\InTheOrbit\Assets\Scenes\GameScene\NavMesh-World
-            1.asset.meta
-          projectPath: Assets\Scenes\GameScene\NavMesh-World 1.asset.meta
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets\Scenes\GameScene\NavMesh-World.asset
-        label: NavMesh-World.asset
-        level: 3
-        isFolder: 0
-        isContainer: 1
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Scenes\GameScene\NavMesh-World.asset
-          fullPath: C:\Users\Rithvik\development\InTheOrbit\Assets\Scenes\GameScene\NavMesh-World.asset
-          projectPath: Assets\Scenes\GameScene\NavMesh-World.asset
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets\Scenes\GameScene\NavMesh-World.asset.meta
-        label: NavMesh-World.asset.meta
-        level: 4
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Scenes\GameScene\NavMesh-World.asset.meta
-          fullPath: C:\Users\Rithvik\development\InTheOrbit\Assets\Scenes\GameScene\NavMesh-World.asset.meta
-          projectPath: Assets\Scenes\GameScene\NavMesh-World.asset.meta
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
       - path: Assets\Scripts
         label: Scripts
         level: 1
@@ -2506,6 +1260,24 @@ MonoBehaviour:
           originalPath: 
           indexStatus: 0
           workTreeStatus: 0
+      - path: Assets\Scripts\ForceReceiver.cs
+        label: ForceReceiver.cs
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Scripts\ForceReceiver.cs
+          fullPath: C:\Users\Rithvik\development\InTheOrbit\Assets\Scripts\ForceReceiver.cs
+          projectPath: Assets\Scripts\ForceReceiver.cs
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 3
       - path: Assets\Scripts\StateMachines
         label: StateMachines
         level: 2
@@ -2542,65 +1314,11 @@ MonoBehaviour:
           originalPath: 
           indexStatus: 0
           workTreeStatus: 0
-      - path: Assets\Scripts\StateMachines\Enemy\EnemyBaseState.cs
-        label: EnemyBaseState.cs
-        level: 4
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Scripts\StateMachines\Enemy\EnemyBaseState.cs
-          fullPath: C:\Users\Rithvik\development\InTheOrbit\Assets\Scripts\StateMachines\Enemy\EnemyBaseState.cs
-          projectPath: Assets\Scripts\StateMachines\Enemy\EnemyBaseState.cs
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 3
-      - path: Assets\Scripts\StateMachines\Enemy\EnemyIdleState.cs
-        label: EnemyIdleState.cs
-        level: 4
-        isFolder: 0
-        isContainer: 1
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Scripts\StateMachines\Enemy\EnemyIdleState.cs
-          fullPath: C:\Users\Rithvik\development\InTheOrbit\Assets\Scripts\StateMachines\Enemy\EnemyIdleState.cs
-          projectPath: Assets\Scripts\StateMachines\Enemy\EnemyIdleState.cs
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 5
-      - path: Assets\Scripts\StateMachines\Enemy\EnemyIdleState.cs.meta
-        label: EnemyIdleState.cs.meta
-        level: 5
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Scripts\StateMachines\Enemy\EnemyIdleState.cs.meta
-          fullPath: C:\Users\Rithvik\development\InTheOrbit\Assets\Scripts\StateMachines\Enemy\EnemyIdleState.cs.meta
-          projectPath: Assets\Scripts\StateMachines\Enemy\EnemyIdleState.cs.meta
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 5
       - path: Assets\Scripts\StateMachines\Enemy\EnemyStateMachine.cs
         label: EnemyStateMachine.cs
         level: 4
         isFolder: 0
-        isContainer: 1
+        isContainer: 0
         isCollapsed: 0
         isHidden: 0
         isActive: 0
@@ -2614,9 +1332,27 @@ MonoBehaviour:
           originalPath: 
           indexStatus: 0
           workTreeStatus: 3
-      - path: Assets\Scripts\StateMachines\Enemy\EnemyStateMachine.cs.meta
-        label: EnemyStateMachine.cs.meta
-        level: 5
+      - path: Assets\Scripts\StateMachines\Player
+        label: Player
+        level: 3
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: Assets\Scripts\StateMachines\Player\Attack.cs
+        label: Attack.cs
+        level: 4
         isFolder: 0
         isContainer: 0
         isCollapsed: 0
@@ -2626,9 +1362,45 @@ MonoBehaviour:
         checkState: 0
         isLocked: 0
         gitStatusEntry:
-          path: Assets\Scripts\StateMachines\Enemy\EnemyStateMachine.cs.meta
-          fullPath: C:\Users\Rithvik\development\InTheOrbit\Assets\Scripts\StateMachines\Enemy\EnemyStateMachine.cs.meta
-          projectPath: Assets\Scripts\StateMachines\Enemy\EnemyStateMachine.cs.meta
+          path: Assets\Scripts\StateMachines\Player\Attack.cs
+          fullPath: C:\Users\Rithvik\development\InTheOrbit\Assets\Scripts\StateMachines\Player\Attack.cs
+          projectPath: Assets\Scripts\StateMachines\Player\Attack.cs
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 3
+      - path: Assets\Scripts\StateMachines\Player\PlayerAttackingState.cs
+        label: PlayerAttackingState.cs
+        level: 4
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Scripts\StateMachines\Player\PlayerAttackingState.cs
+          fullPath: C:\Users\Rithvik\development\InTheOrbit\Assets\Scripts\StateMachines\Player\PlayerAttackingState.cs
+          projectPath: Assets\Scripts\StateMachines\Player\PlayerAttackingState.cs
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 3
+      - path: Assets\Scripts\StateMachines\State.cs
+        label: State.cs
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Scripts\StateMachines\State.cs
+          fullPath: C:\Users\Rithvik\development\InTheOrbit\Assets\Scripts\StateMachines\State.cs
+          projectPath: Assets\Scripts\StateMachines\State.cs
           originalPath: 
           indexStatus: 0
           workTreeStatus: 3
@@ -2636,7 +1408,7 @@ MonoBehaviour:
         label: WeaponDamage.cs
         level: 1
         isFolder: 0
-        isContainer: 1
+        isContainer: 0
         isCollapsed: 0
         isHidden: 0
         isActive: 0
@@ -2647,168 +1419,6 @@ MonoBehaviour:
           path: Assets\WeaponDamage.cs
           fullPath: C:\Users\Rithvik\development\InTheOrbit\Assets\WeaponDamage.cs
           projectPath: Assets\WeaponDamage.cs
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets\WeaponDamage.cs.meta
-        label: WeaponDamage.cs.meta
-        level: 2
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\WeaponDamage.cs.meta
-          fullPath: C:\Users\Rithvik\development\InTheOrbit\Assets\WeaponDamage.cs.meta
-          projectPath: Assets\WeaponDamage.cs.meta
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets\WeaponHandler.cs
-        label: WeaponHandler.cs
-        level: 1
-        isFolder: 0
-        isContainer: 1
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\WeaponHandler.cs
-          fullPath: C:\Users\Rithvik\development\InTheOrbit\Assets\WeaponHandler.cs
-          projectPath: Assets\WeaponHandler.cs
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets\WeaponHandler.cs.meta
-        label: WeaponHandler.cs.meta
-        level: 2
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\WeaponHandler.cs.meta
-          fullPath: C:\Users\Rithvik\development\InTheOrbit\Assets\WeaponHandler.cs.meta
-          projectPath: Assets\WeaponHandler.cs.meta
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: finished_second_boss.patch
-        label: finished_second_boss.patch
-        level: 0
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: finished_second_boss.patch
-          fullPath: C:\Users\Rithvik\development\InTheOrbit\finished_second_boss.patch
-          projectPath: finished_second_boss.patch
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: ProjectSettings
-        label: ProjectSettings
-        level: 0
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 0
-      - path: ProjectSettings\TagManager.asset
-        label: TagManager.asset
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: ProjectSettings\TagManager.asset
-          fullPath: C:\Users\Rithvik\development\InTheOrbit\ProjectSettings\TagManager.asset
-          projectPath: ProjectSettings\TagManager.asset
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 3
-      - path: UserSettings
-        label: UserSettings
-        level: 0
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 0
-      - path: UserSettings\Layouts
-        label: Layouts
-        level: 1
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 0
-      - path: UserSettings\Layouts\default-2022.dwlt
-        label: default-2022.dwlt
-        level: 2
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: UserSettings\Layouts\default-2022.dwlt
-          fullPath: C:\Users\Rithvik\development\InTheOrbit\UserSettings\Layouts\default-2022.dwlt
-          projectPath: UserSettings\Layouts\default-2022.dwlt
           originalPath: 
           indexStatus: 0
           workTreeStatus: 3
@@ -2832,287 +1442,69 @@ MonoBehaviour:
           indexStatus: 0
           workTreeStatus: 0
     gitStatusEntries:
-    - path: .idea\.gitignore
-      fullPath: C:\Users\Rithvik\development\InTheOrbit\.idea\.gitignore
-      projectPath: .idea\.gitignore
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: .idea\InTheOrbit.iml
-      fullPath: C:\Users\Rithvik\development\InTheOrbit\.idea\InTheOrbit.iml
-      projectPath: .idea\InTheOrbit.iml
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: .idea\misc.xml
-      fullPath: C:\Users\Rithvik\development\InTheOrbit\.idea\misc.xml
-      projectPath: .idea\misc.xml
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: .idea\modules.xml
-      fullPath: C:\Users\Rithvik\development\InTheOrbit\.idea\modules.xml
-      projectPath: .idea\modules.xml
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: .idea\vcs.xml
-      fullPath: C:\Users\Rithvik\development\InTheOrbit\.idea\vcs.xml
-      projectPath: .idea\vcs.xml
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Animations\Enemy\EnemyIdleState.cs
-      fullPath: C:\Users\Rithvik\development\InTheOrbit\Assets\Animations\Enemy\EnemyIdleState.cs
-      projectPath: Assets\Animations\Enemy\EnemyIdleState.cs
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Animations\Enemy\EnemyIdleState.cs.meta
-      fullPath: C:\Users\Rithvik\development\InTheOrbit\Assets\Animations\Enemy\EnemyIdleState.cs.meta
-      projectPath: Assets\Animations\Enemy\EnemyIdleState.cs.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Enemy2.meta
-      fullPath: C:\Users\Rithvik\development\InTheOrbit\Assets\Enemy2.meta
-      projectPath: Assets\Enemy2.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Enemy2\Attack.anim
-      fullPath: C:\Users\Rithvik\development\InTheOrbit\Assets\Enemy2\Attack.anim
-      projectPath: Assets\Enemy2\Attack.anim
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Enemy2\Attack.anim.meta
-      fullPath: C:\Users\Rithvik\development\InTheOrbit\Assets\Enemy2\Attack.anim.meta
-      projectPath: Assets\Enemy2\Attack.anim.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Enemy2\Boss 2 (1) (2).fbx
-      fullPath: C:\Users\Rithvik\development\InTheOrbit\Assets\Enemy2\Boss 2 (1)
-        (2).fbx
-      projectPath: Assets\Enemy2\Boss 2 (1) (2).fbx
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Enemy2\Boss 2 (1) (2).fbx.meta
-      fullPath: C:\Users\Rithvik\development\InTheOrbit\Assets\Enemy2\Boss 2 (1)
-        (2).fbx.meta
-      projectPath: Assets\Enemy2\Boss 2 (1) (2).fbx.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Enemy2\Boss 2 (1)@Sad Idle (1).fbx
-      fullPath: C:\Users\Rithvik\development\InTheOrbit\Assets\Enemy2\Boss 2 (1)@Sad
-        Idle (1).fbx
-      projectPath: Assets\Enemy2\Boss 2 (1)@Sad Idle (1).fbx
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Enemy2\Boss 2 (1)@Sad Idle (1).fbx.meta
-      fullPath: C:\Users\Rithvik\development\InTheOrbit\Assets\Enemy2\Boss 2 (1)@Sad
-        Idle (1).fbx.meta
-      projectPath: Assets\Enemy2\Boss 2 (1)@Sad Idle (1).fbx.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Enemy2\Boss 2 (1)@Stomp.fbx
-      fullPath: C:\Users\Rithvik\development\InTheOrbit\Assets\Enemy2\Boss 2 (1)@Stomp.fbx
-      projectPath: Assets\Enemy2\Boss 2 (1)@Stomp.fbx
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Enemy2\Boss 2 (1)@Stomp.fbx.meta
-      fullPath: C:\Users\Rithvik\development\InTheOrbit\Assets\Enemy2\Boss 2 (1)@Stomp.fbx.meta
-      projectPath: Assets\Enemy2\Boss 2 (1)@Stomp.fbx.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Enemy2\Boss 2 (1)@Zombie Running.fbx
-      fullPath: C:\Users\Rithvik\development\InTheOrbit\Assets\Enemy2\Boss 2 (1)@Zombie
-        Running.fbx
-      projectPath: Assets\Enemy2\Boss 2 (1)@Zombie Running.fbx
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Enemy2\Boss 2 (1)@Zombie Running.fbx.meta
-      fullPath: C:\Users\Rithvik\development\InTheOrbit\Assets\Enemy2\Boss 2 (1)@Zombie
-        Running.fbx.meta
-      projectPath: Assets\Enemy2\Boss 2 (1)@Zombie Running.fbx.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Enemy2\Boss2.controller
-      fullPath: C:\Users\Rithvik\development\InTheOrbit\Assets\Enemy2\Boss2.controller
-      projectPath: Assets\Enemy2\Boss2.controller
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Enemy2\Boss2.controller.meta
-      fullPath: C:\Users\Rithvik\development\InTheOrbit\Assets\Enemy2\Boss2.controller.meta
-      projectPath: Assets\Enemy2\Boss2.controller.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Enemy2\BossIdle.anim
-      fullPath: C:\Users\Rithvik\development\InTheOrbit\Assets\Enemy2\BossIdle.anim
-      projectPath: Assets\Enemy2\BossIdle.anim
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Enemy2\BossIdle.anim.meta
-      fullPath: C:\Users\Rithvik\development\InTheOrbit\Assets\Enemy2\BossIdle.anim.meta
-      projectPath: Assets\Enemy2\BossIdle.anim.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Enemy2\Bossrunning.anim
-      fullPath: C:\Users\Rithvik\development\InTheOrbit\Assets\Enemy2\Bossrunning.anim
-      projectPath: Assets\Enemy2\Bossrunning.anim
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Enemy2\Bossrunning.anim.meta
-      fullPath: C:\Users\Rithvik\development\InTheOrbit\Assets\Enemy2\Bossrunning.anim.meta
-      projectPath: Assets\Enemy2\Bossrunning.anim.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Enemy2\Enemy2.prefab
-      fullPath: C:\Users\Rithvik\development\InTheOrbit\Assets\Enemy2\Enemy2.prefab
-      projectPath: Assets\Enemy2\Enemy2.prefab
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Enemy2\Enemy2.prefab.meta
-      fullPath: C:\Users\Rithvik\development\InTheOrbit\Assets\Enemy2\Enemy2.prefab.meta
-      projectPath: Assets\Enemy2\Enemy2.prefab.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
     - path: Assets\Enemy2\EnemyAttackingState.cs
       fullPath: C:\Users\Rithvik\development\InTheOrbit\Assets\Enemy2\EnemyAttackingState.cs
       projectPath: Assets\Enemy2\EnemyAttackingState.cs
       originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Enemy2\EnemyAttackingState.cs.meta
-      fullPath: C:\Users\Rithvik\development\InTheOrbit\Assets\Enemy2\EnemyAttackingState.cs.meta
-      projectPath: Assets\Enemy2\EnemyAttackingState.cs.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Enemy2\EnemyChasingState.cs
-      fullPath: C:\Users\Rithvik\development\InTheOrbit\Assets\Enemy2\EnemyChasingState.cs
-      projectPath: Assets\Enemy2\EnemyChasingState.cs
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Enemy2\EnemyChasingState.cs.meta
-      fullPath: C:\Users\Rithvik\development\InTheOrbit\Assets\Enemy2\EnemyChasingState.cs.meta
-      projectPath: Assets\Enemy2\EnemyChasingState.cs.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Jammo-Character\Models\Jammo_LowPoly.prefab
-      fullPath: C:\Users\Rithvik\development\InTheOrbit\Assets\Jammo-Character\Models\Jammo_LowPoly.prefab
-      projectPath: Assets\Jammo-Character\Models\Jammo_LowPoly.prefab
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Jammo-Character\Models\Jammo_LowPoly.prefab.meta
-      fullPath: C:\Users\Rithvik\development\InTheOrbit\Assets\Jammo-Character\Models\Jammo_LowPoly.prefab.meta
-      projectPath: Assets\Jammo-Character\Models\Jammo_LowPoly.prefab.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Jammo-Character\Prefabs\Jammo_Player.prefab
-      fullPath: C:\Users\Rithvik\development\InTheOrbit\Assets\Jammo-Character\Prefabs\Jammo_Player.prefab
-      projectPath: Assets\Jammo-Character\Prefabs\Jammo_Player.prefab
+      indexStatus: 0
+      workTreeStatus: 3
+    - path: Assets\Health.cs
+      fullPath: C:\Users\Rithvik\development\InTheOrbit\Assets\Health.cs
+      projectPath: Assets\Health.cs
       originalPath: 
       indexStatus: 0
       workTreeStatus: 3
-    - path: Assets\NewBehaviourScript.cs
-      fullPath: C:\Users\Rithvik\development\InTheOrbit\Assets\NewBehaviourScript.cs
-      projectPath: Assets\NewBehaviourScript.cs
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 5
-    - path: Assets\NewBehaviourScript.cs.meta
-      fullPath: C:\Users\Rithvik\development\InTheOrbit\Assets\NewBehaviourScript.cs.meta
-      projectPath: Assets\NewBehaviourScript.cs.meta
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 5
-    - path: Assets\Scenes\GameScene.meta
-      fullPath: C:\Users\Rithvik\development\InTheOrbit\Assets\Scenes\GameScene.meta
-      projectPath: Assets\Scenes\GameScene.meta
+    - path: Assets\HealthSystem.cs
+      fullPath: C:\Users\Rithvik\development\InTheOrbit\Assets\HealthSystem.cs
+      projectPath: Assets\HealthSystem.cs
       originalPath: 
       indexStatus: 1
       workTreeStatus: 1
+    - path: Assets\HealthSystem.cs.meta
+      fullPath: C:\Users\Rithvik\development\InTheOrbit\Assets\HealthSystem.cs.meta
+      projectPath: Assets\HealthSystem.cs.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Scenes\Canvas.prefab
+      fullPath: C:\Users\Rithvik\development\InTheOrbit\Assets\Scenes\Canvas.prefab
+      projectPath: Assets\Scenes\Canvas.prefab
+      originalPath: 
+      indexStatus: 0
+      workTreeStatus: 3
     - path: Assets\Scenes\GameScene.unity
       fullPath: C:\Users\Rithvik\development\InTheOrbit\Assets\Scenes\GameScene.unity
       projectPath: Assets\Scenes\GameScene.unity
       originalPath: 
       indexStatus: 0
       workTreeStatus: 3
-    - path: Assets\Scenes\GameScene\NavMesh-World 1.asset
-      fullPath: C:\Users\Rithvik\development\InTheOrbit\Assets\Scenes\GameScene\NavMesh-World
-        1.asset
-      projectPath: Assets\Scenes\GameScene\NavMesh-World 1.asset
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Scenes\GameScene\NavMesh-World 1.asset.meta
-      fullPath: C:\Users\Rithvik\development\InTheOrbit\Assets\Scenes\GameScene\NavMesh-World
-        1.asset.meta
-      projectPath: Assets\Scenes\GameScene\NavMesh-World 1.asset.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Scenes\GameScene\NavMesh-World.asset
-      fullPath: C:\Users\Rithvik\development\InTheOrbit\Assets\Scenes\GameScene\NavMesh-World.asset
-      projectPath: Assets\Scenes\GameScene\NavMesh-World.asset
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Scenes\GameScene\NavMesh-World.asset.meta
-      fullPath: C:\Users\Rithvik\development\InTheOrbit\Assets\Scenes\GameScene\NavMesh-World.asset.meta
-      projectPath: Assets\Scenes\GameScene\NavMesh-World.asset.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Scripts\StateMachines\Enemy\EnemyBaseState.cs
-      fullPath: C:\Users\Rithvik\development\InTheOrbit\Assets\Scripts\StateMachines\Enemy\EnemyBaseState.cs
-      projectPath: Assets\Scripts\StateMachines\Enemy\EnemyBaseState.cs
+    - path: Assets\Scripts\ForceReceiver.cs
+      fullPath: C:\Users\Rithvik\development\InTheOrbit\Assets\Scripts\ForceReceiver.cs
+      projectPath: Assets\Scripts\ForceReceiver.cs
       originalPath: 
       indexStatus: 0
       workTreeStatus: 3
-    - path: Assets\Scripts\StateMachines\Enemy\EnemyIdleState.cs
-      fullPath: C:\Users\Rithvik\development\InTheOrbit\Assets\Scripts\StateMachines\Enemy\EnemyIdleState.cs
-      projectPath: Assets\Scripts\StateMachines\Enemy\EnemyIdleState.cs
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 5
-    - path: Assets\Scripts\StateMachines\Enemy\EnemyIdleState.cs.meta
-      fullPath: C:\Users\Rithvik\development\InTheOrbit\Assets\Scripts\StateMachines\Enemy\EnemyIdleState.cs.meta
-      projectPath: Assets\Scripts\StateMachines\Enemy\EnemyIdleState.cs.meta
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 5
     - path: Assets\Scripts\StateMachines\Enemy\EnemyStateMachine.cs
       fullPath: C:\Users\Rithvik\development\InTheOrbit\Assets\Scripts\StateMachines\Enemy\EnemyStateMachine.cs
       projectPath: Assets\Scripts\StateMachines\Enemy\EnemyStateMachine.cs
       originalPath: 
       indexStatus: 0
       workTreeStatus: 3
-    - path: Assets\Scripts\StateMachines\Enemy\EnemyStateMachine.cs.meta
-      fullPath: C:\Users\Rithvik\development\InTheOrbit\Assets\Scripts\StateMachines\Enemy\EnemyStateMachine.cs.meta
-      projectPath: Assets\Scripts\StateMachines\Enemy\EnemyStateMachine.cs.meta
+    - path: Assets\Scripts\StateMachines\Player\Attack.cs
+      fullPath: C:\Users\Rithvik\development\InTheOrbit\Assets\Scripts\StateMachines\Player\Attack.cs
+      projectPath: Assets\Scripts\StateMachines\Player\Attack.cs
+      originalPath: 
+      indexStatus: 0
+      workTreeStatus: 3
+    - path: Assets\Scripts\StateMachines\Player\PlayerAttackingState.cs
+      fullPath: C:\Users\Rithvik\development\InTheOrbit\Assets\Scripts\StateMachines\Player\PlayerAttackingState.cs
+      projectPath: Assets\Scripts\StateMachines\Player\PlayerAttackingState.cs
+      originalPath: 
+      indexStatus: 0
+      workTreeStatus: 3
+    - path: Assets\Scripts\StateMachines\State.cs
+      fullPath: C:\Users\Rithvik\development\InTheOrbit\Assets\Scripts\StateMachines\State.cs
+      projectPath: Assets\Scripts\StateMachines\State.cs
       originalPath: 
       indexStatus: 0
       workTreeStatus: 3
@@ -3120,53 +1512,17 @@ MonoBehaviour:
       fullPath: C:\Users\Rithvik\development\InTheOrbit\Assets\WeaponDamage.cs
       projectPath: Assets\WeaponDamage.cs
       originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\WeaponDamage.cs.meta
-      fullPath: C:\Users\Rithvik\development\InTheOrbit\Assets\WeaponDamage.cs.meta
-      projectPath: Assets\WeaponDamage.cs.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\WeaponHandler.cs
-      fullPath: C:\Users\Rithvik\development\InTheOrbit\Assets\WeaponHandler.cs
-      projectPath: Assets\WeaponHandler.cs
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\WeaponHandler.cs.meta
-      fullPath: C:\Users\Rithvik\development\InTheOrbit\Assets\WeaponHandler.cs.meta
-      projectPath: Assets\WeaponHandler.cs.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: finished_second_boss.patch
-      fullPath: C:\Users\Rithvik\development\InTheOrbit\finished_second_boss.patch
-      projectPath: finished_second_boss.patch
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: ProjectSettings\TagManager.asset
-      fullPath: C:\Users\Rithvik\development\InTheOrbit\ProjectSettings\TagManager.asset
-      projectPath: ProjectSettings\TagManager.asset
-      originalPath: 
       indexStatus: 0
       workTreeStatus: 3
-    - path: UserSettings\Layouts\default-2022.dwlt
-      fullPath: C:\Users\Rithvik\development\InTheOrbit\UserSettings\Layouts\default-2022.dwlt
-      projectPath: UserSettings\Layouts\default-2022.dwlt
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 3
-    changedFilesText: 53 changed files
+    changedFilesText: 12 changed files
     lastCurrentBranchChangedEvent:
-      updatedTimeString: 2024-05-14T21:15:06.412-07:00
+      updatedTimeString: 2024-05-15T21:10:05.892-07:00
       cacheType: 1
     lastStatusEntriesChangedEvent:
-      updatedTimeString: 2024-05-14T22:07:47.608-07:00
+      updatedTimeString: 2024-05-15T21:10:05.105-07:00
       cacheType: 6
     lastLocksChangedEvent:
-      updatedTimeString: 0001-01-01T00:00:00.000+00:00
+      updatedTimeString: 2024-05-15T20:19:47.545-07:00
       cacheType: 7
   historyView:
     currentLogHasUpdate: 0
@@ -3389,7 +1745,7 @@ MonoBehaviour:
     updatedTimeString: 2024-05-14T21:17:23.185-07:00
     cacheType: 5
   lastStatusEntriesChangedEvent:
-    updatedTimeString: 2024-05-14T21:17:23.178-07:00
+    updatedTimeString: 2024-05-15T20:06:19.985-07:00
     cacheType: 6
   pullButtonContent:
     m_Text: Pull
@@ -3458,7 +1814,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets
+    - Assets/Scripts
     m_Globs: []
     m_OriginalText: 
     m_ImportLogFlags: 0
@@ -3466,16 +1822,16 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets
+  - Assets/Scripts
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\Rithvik\development\InTheOrbit
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 24690000
-    m_LastClickedID: 26916
-    m_ExpandedIDs: 000000002469000026690000286900002a6900002c6900002e69000030690000d869000000ca9a3b
+    scrollPos: {x: 0, y: 75}
+    m_SelectedIDs: 8e690000
+    m_LastClickedID: 27022
+    m_ExpandedIDs: 0000000086690000886900008a6900008c6900008e6900009069000092690000346a00003c6a000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -3503,7 +1859,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000002469000026690000286900002a6900002c6900002e69000030690000
+    m_ExpandedIDs: 0000000086690000886900008a6900008c6900008e6900009069000092690000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -3600,7 +1956,7 @@ MonoBehaviour:
     m_ControlHash: -371814159
     m_PrefName: Preview_InspectorPreview
   m_LastInspectedObjectInstanceID: -1
-  m_LastVerticalScrollValue: 290
+  m_LastVerticalScrollValue: 330
   m_GlobalObjectId: 
   m_InspectorMode: 0
   m_LockTracker:
@@ -3643,23 +1999,23 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 
-      m_LastClickedID: 0
-      m_ExpandedIDs: f6f7fffffaf7fffffef7ffff06f8ffff0af8ffff0ef8ffff16f8ffff1af8ffff1ef8ffff26f8ffff2af8ffff2ef8ffff32f8ffff36f8ffff3af8ffff3ef8ffff46f8ffff4af8ffff52f8ffff56f8ffff5af8ffff62f8ffff66f8ffff6af8ffff72f8ffff76f8ffff7af8ffff82f8ffff86f8ffff8af8ffff8ef8ffff92f8ffff96f8ffff9af8ffff9ef8ffffa2f8ffffa6f8ffffaaf8ffffaef8ffffb2f8ffffb6f8ffffbaf8ffffc2f8ffffc6f8ffffcaf8ffffcef8ffffd2f8ffffe4faffffc0610000f66100007e620000
+      m_SelectedIDs: ce630000
+      m_LastClickedID: 25550
+      m_ExpandedIDs: 38fffefff007ffffb081ffff4cbbffff5cf8ffff60f8ffff62f8ffff66f8ffff6af8ffff7ef8ffff82f8ffffacf8fffff26200003a630000ce630000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: Enemy2
-        m_OriginalName: Enemy2
+        m_Name: 
+        m_OriginalName: 
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
           y: 0
           width: 0
           height: 0
-        m_UserData: -25694
+        m_UserData: 0
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
-        m_OriginalEventType: 0
+        m_OriginalEventType: 11
         m_IsRenamingFilename: 0
         m_ClientGUIView: {fileID: 4}
       m_SearchString: 
@@ -3986,9 +2342,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 55.84919, y: 13.83264, z: 7.7002945}
+    m_Target: {x: 4.0129223, y: -7.9388123, z: 31.615139}
     speed: 2
-    m_Value: {x: 55.84919, y: 13.83264, z: 7.7002945}
+    m_Value: {x: 4.0129223, y: -7.9388123, z: 31.615139}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -4034,20 +2390,20 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.011936991, y: -0.9562106, z: 0.28984016, w: 0.039322555}
+    m_Target: {x: -0.1762127, y: -0.79405546, z: 0.514364, w: -0.27199087}
     speed: 2
-    m_Value: {x: 0.011936783, y: -0.956194, z: 0.28983513, w: 0.03932187}
+    m_Value: {x: -0.17620176, y: -0.79400617, z: 0.51433206, w: -0.27197397}
   m_Size:
-    m_Target: 11.017849
+    m_Target: 76.360146
     speed: 2
-    m_Value: 10.543396
+    m_Value: 76.360146
   m_Ortho:
     m_Target: 0
     speed: 2
     m_Value: 0
   m_CameraSettings:
-    m_Speed: 1.1204399
-    m_SpeedNormalized: 0.55999994
+    m_Speed: 1.3603196
+    m_SpeedNormalized: 0.6799998
     m_SpeedMin: 0.001
     m_SpeedMax: 2
     m_EasingEnabled: 1
@@ -4143,18 +2499,18 @@ MonoBehaviour:
       y: 21
       width: 1478
       height: 727
-    m_Scale: {x: 1.092727, y: 1.092727}
-    m_Translation: {x: 738.8927, y: 395.6963}
+    m_Scale: {x: 1, y: 1}
+    m_Translation: {x: 739, y: 363.5}
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
-      x: -676.1915
-      y: -362.11816
-      width: 1352.5795
-      height: 665.30804
+      x: -739
+      y: -363.5
+      width: 1478
+      height: 727
     m_MinimalGUI: 1
   m_defaultScale: 1
   m_LastWindowPixelSize: {x: 1478, y: 748}

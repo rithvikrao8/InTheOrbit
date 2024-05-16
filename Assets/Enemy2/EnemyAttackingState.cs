@@ -14,12 +14,17 @@ public class EnemyAttackingState : EnemyBaseState
     public override void Enter()
     {
         GenericStateMachine.Animator.CrossFadeInFixedTime(AttackHash, TransitionDuration);
-        GenericStateMachine.Weapon.SetAttack(GenericStateMachine.AttackDamage);
+        GenericStateMachine.Weapon.SetAttack(GenericStateMachine.AttackDamage,GenericStateMachine.AttackKnockback);
     }
 
 
     public override void Tick(float deltaTime)
     {
+        if (GetNormalizedTime(GenericStateMachine.Animator) >= 1)
+        {
+            GenericStateMachine.SwitchState(new EnemyChasingState(GenericStateMachine));
+        }
+        
     }
 
     public override void Exit()

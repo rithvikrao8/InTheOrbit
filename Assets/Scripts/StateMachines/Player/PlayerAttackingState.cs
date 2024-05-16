@@ -1,7 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
 public class PlayerAttackingState : PlayerBaseState
 {
 
@@ -16,16 +15,13 @@ public class PlayerAttackingState : PlayerBaseState
     {
         attack = GenericStateMachine.Attacks[attackIndex];
     }
-
     public override void Enter()
     {
         GenericStateMachine.Animator.CrossFadeInFixedTime(attack.AnimationName, attack.TransitionDuration);
     }
-
     public override void Tick(float deltaTime)
     {
         Move(deltaTime);
-
         FaceTarget();
 
         float normalizedTime =  GetNormalizedTime();
@@ -55,13 +51,10 @@ public class PlayerAttackingState : PlayerBaseState
 
         previousFrameTime = normalizedTime;
     }
-
     private void TryComboAttack(float normalizedTime)
     {
         if(attack.ComboStateIndex == -1) {return;}
-
         if(normalizedTime < attack.ComboAttackTime) {return;}
-
         GenericStateMachine.SwitchState
         (
             new PlayerAttackingState
@@ -90,7 +83,6 @@ public class PlayerAttackingState : PlayerBaseState
     {
         AnimatorStateInfo currentInfo = GenericStateMachine.Animator.GetCurrentAnimatorStateInfo(0);
         AnimatorStateInfo nextInfo = GenericStateMachine.Animator.GetNextAnimatorStateInfo(0);
-
         if (GenericStateMachine.Animator.IsInTransition(0) && nextInfo.IsTag("Attack"))
         {
             return nextInfo.normalizedTime;
@@ -103,8 +95,5 @@ public class PlayerAttackingState : PlayerBaseState
         {
             return 0f;
         }
-
-
     }
-
 }

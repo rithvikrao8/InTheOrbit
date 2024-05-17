@@ -18,13 +18,14 @@ public class PlayerAttackingState : PlayerBaseState
     public override void Enter()
     {
         GenericStateMachine.Animator.CrossFadeInFixedTime(attack.AnimationName, attack.TransitionDuration);
+       
     }
     public override void Tick(float deltaTime)
     {
         Move(deltaTime);
         FaceTarget();
 
-        float normalizedTime =  GetNormalizedTime();
+        float normalizedTime =  GetNormalizedTime(GenericStateMachine.Animator);
         if(normalizedTime >= previousFrameTime && normalizedTime < 1f)
         {
             if(normalizedTime >= attack.ForceTime)

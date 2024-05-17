@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class EnemyIdleState : EnemyBaseState
 {
-    private readonly int MovementHash = Animator.StringToHash("Locomotion"); // Replace 'movement' with the name of animation
+    private readonly int MovementHash = Animator.StringToHash("Movement"); // Replace 'movement' with the name of animation
     private readonly int SpeedHash = Animator.StringToHash("Speed");
 
     private const float CrossFadeDuration = 0.1f;

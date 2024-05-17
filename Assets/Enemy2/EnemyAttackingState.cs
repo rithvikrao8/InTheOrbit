@@ -6,7 +6,7 @@ public class EnemyAttackingState : EnemyBaseState
 {
     private readonly int AttackHash = Animator.StringToHash("Attack");
     private const float TransitionDuration = 0.1f;
-   
+
     public EnemyAttackingState(EnemyStateMachine GenericStateMachine) : base(GenericStateMachine)
     {
     }
@@ -14,7 +14,7 @@ public class EnemyAttackingState : EnemyBaseState
     public override void Enter()
     {
         GenericStateMachine.Animator.CrossFadeInFixedTime(AttackHash, TransitionDuration);
-        GenericStateMachine.Weapon.SetAttack(GenericStateMachine.AttackDamage,GenericStateMachine.AttackKnockback);
+        GenericStateMachine.Weapon.SetAttack(GenericStateMachine.AttackDamage, GenericStateMachine.AttackKnockback);
     }
 
 
@@ -24,7 +24,7 @@ public class EnemyAttackingState : EnemyBaseState
         {
             GenericStateMachine.SwitchState(new EnemyChasingState(GenericStateMachine));
         }
-        
+
     }
 
     public override void Exit()

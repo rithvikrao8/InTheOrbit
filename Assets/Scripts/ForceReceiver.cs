@@ -17,7 +17,7 @@ public class ForceReceiver : MonoBehaviour
 
     public Vector3 Movement => impact + Vector3.up * verticalVelocity;
 
-    private void Update()
+    private void Update()   
     {
         if (verticalVelocity < 0f && controller.isGrounded)
         {
@@ -31,8 +31,9 @@ public class ForceReceiver : MonoBehaviour
 
         if (agent != null)
         {
-            if (impact == Vector3.zero)
+            if (impact.sqrMagnitude < 0.2f*0.2f)
             {
+                impact = Vector3.zero;
                 agent.enabled = true;
             }
         }
@@ -46,4 +47,5 @@ public class ForceReceiver : MonoBehaviour
      
     }
 }
+
 

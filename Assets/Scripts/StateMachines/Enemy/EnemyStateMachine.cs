@@ -32,6 +32,7 @@ public class EnemyStateMachine : StateMachine
     private void Start()
     {
         Player = GameObject.FindGameObjectWithTag("Player");
+        Debug.Log(Player);
         Agent.updatePosition = false;
         Agent.updateRotation = false;
         SwitchState(new EnemyIdleState(this));

@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
+using UnityEngine.AI;
 
 public class ForceReceiver : MonoBehaviour
 {
@@ -40,6 +41,11 @@ public class ForceReceiver : MonoBehaviour
     }
     public void AddForce(Vector3 force) { 
         impact += force;
+        if (agent != null)
+        {
+            agent.enabled = false;
+        }
+     
         if (agent != null)
         {
             agent.enabled = false;

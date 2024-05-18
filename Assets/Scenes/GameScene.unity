@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028334, g: 0.22571328, b: 0.3069217, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -644,6 +644,21 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   animator: {fileID: 135293450}
   controller: {fileID: 135293452}
+--- !u!114 &135293461
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 135293445}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 373b24d5267edb146bf18d00e6375650, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 135293445}
+  delayBeforeSpaceship: 1
+  delayBeforeReset: 5
 --- !u!1 &195871240
 GameObject:
   m_ObjectHideFlags: 0
@@ -1462,7 +1477,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9a6e1369fef02bb42af95b50ee525d81, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  weaponLogic: {fileID: 767371090}
+  PunchingAttack: {fileID: 0}
 --- !u!114 &493343282
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3850,7 +3865,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9a6e1369fef02bb42af95b50ee525d81, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  weaponLogic: {fileID: 1759023151}
+  PunchingAttack: {fileID: 0}
 --- !u!114 &1634652468
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4393,7 +4408,7 @@ MonoBehaviour:
   <AttackDamage>k__BackingField: 20
   <AttackRange>k__BackingField: 10
   <Health>k__BackingField: {fileID: 2060387053}
-  <Target>k__BackingField: {fileID: 0}
+  <Target>k__BackingField: {fileID: 2060387050}
   <Agent>k__BackingField: {fileID: 2060387051}
   <MovementSpeed>k__BackingField: 10
   <PlayerChasingRange>k__BackingField: 50
@@ -4410,7 +4425,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9a6e1369fef02bb42af95b50ee525d81, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  weaponLogic: {fileID: 1114306416}
+  PunchingAttack: {fileID: 1114306416}
 --- !u!1001 &2097863839
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4609,15 +4624,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2613810066938246494, guid: 70935ebf9fb144a449bbe912b9e4dcd2, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0.032752283
+      value: 0.032752275
       objectReference: {fileID: 0}
     - target: {fileID: 2613810066938246494, guid: 70935ebf9fb144a449bbe912b9e4dcd2, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.5855195
+      value: -0.58551943
       objectReference: {fileID: 0}
     - target: {fileID: 2613810066938246494, guid: 70935ebf9fb144a449bbe912b9e4dcd2, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0.023685662
+      value: 0.023685658
       objectReference: {fileID: 0}
     - target: {fileID: 2674746713186792693, guid: 70935ebf9fb144a449bbe912b9e4dcd2, type: 3}
       propertyPath: m_Name
@@ -4921,7 +4936,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6161160621529805409, guid: 70935ebf9fb144a449bbe912b9e4dcd2, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 13.34648
+      value: 13.346481
       objectReference: {fileID: 0}
     - target: {fileID: 6208543839821544833, guid: 70935ebf9fb144a449bbe912b9e4dcd2, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5132,6 +5147,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 2674746713186792693, guid: 70935ebf9fb144a449bbe912b9e4dcd2, type: 3}
       insertIndex: -1
       addedObject: {fileID: 135293455}
+    - targetCorrespondingSourceObject: {fileID: 2674746713186792693, guid: 70935ebf9fb144a449bbe912b9e4dcd2, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 135293461}
     - targetCorrespondingSourceObject: {fileID: 5187027095783022644, guid: 70935ebf9fb144a449bbe912b9e4dcd2, type: 3}
       insertIndex: -1
       addedObject: {fileID: 474114628}

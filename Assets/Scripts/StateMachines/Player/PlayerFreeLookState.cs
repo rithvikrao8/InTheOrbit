@@ -5,44 +5,39 @@ using UnityEngine;
 public class PlayerFreeLookState : PlayerBaseState
 {
     private readonly int FreeLookBlendTreeHash = Animator.StringToHash("FreeLookBlendTree");
-
     private readonly int FreeLookSpeedHash = Animator.StringToHash("FreeLookSpeed");
-
     private const float AnimatorDampTime = 0.1f;
+    private int attackCounter = 0;
 
-
-    public PlayerFreeLookState(PlayerStateMachine GenericStateMachine) : base(GenericStateMachine) { }
+    public PlayerFreeLookState(PlayerStateMachine stateMachine) : base(stateMachine) { }
 
     public override void Enter()
     {
         GenericStateMachine.InputReader.TargetEvent += OnTarget;
-
-        GenericStateMachine.Animator.Play(FreeLookBlendTreeHash);
+        GenericStateMachine.Animator.CrossFadeInFixedTime(FreeLookBlendTreeHash, 0.1f);
     }
 
     public override void Tick(float deltaTime)
     {
-        if(GenericStateMachine.InputReader.IsAttacking)
+        if (GenericStateMachine.InputReader.IsAttacking)
         {
-            GenericStateMachine.SwitchState(new PlayerAttackingState(GenericStateMachine, 0));
+            GenericStateMachine.SwitchState(new PlayerAttackingState(GenericStateMachine, attackCounter));
+            attackCounter = (attackCounter + 1) % 3; // Increment and reset counter after 3 attacks
             return;
         }
 
         Vector3 movement = CalculateMovement();
-
         Move(movement * GenericStateMachine.FreeLookMovementSpeed, deltaTime);
-        if (GenericStateMachine.InputReader.MovementValue == Vector2.zero) 
-        {
-            GenericStateMachine.Animator.SetFloat(FreeLookSpeedHash, 0, AnimatorDampTime,deltaTime);
 
-            return; 
+        if (GenericStateMachine.InputReader.MovementValue == Vector2.zero)
+        {
+            GenericStateMachine.Animator.SetFloat(FreeLookSpeedHash, 0, AnimatorDampTime, deltaTime);
+            return;
         }
-        GenericStateMachine.Animator.SetFloat(FreeLookSpeedHash, 1, AnimatorDampTime,deltaTime);
+
+        GenericStateMachine.Animator.SetFloat(FreeLookSpeedHash, 1, AnimatorDampTime, deltaTime);
         FaceMovementDirection(movement, deltaTime);
     }
-
-
-
 
     public override void Exit()
     {
@@ -51,9 +46,7 @@ public class PlayerFreeLookState : PlayerBaseState
 
     private void OnTarget()
     {
-        if(!GenericStateMachine.Targeter.SelectTarget()) { return; }
-
-
+        if (!GenericStateMachine.Targeter.SelectTarget()) { return; }
         GenericStateMachine.SwitchState(new PlayerTargetingState(GenericStateMachine));
     }
 
@@ -68,8 +61,7 @@ public class PlayerFreeLookState : PlayerBaseState
         forward.Normalize();
         right.Normalize();
 
-        return forward * GenericStateMachine.InputReader.MovementValue.y +
-            right * GenericStateMachine.InputReader.MovementValue.x;
+        return forward * GenericStateMachine.InputReader.MovementValue.y + right * GenericStateMachine.InputReader.MovementValue.x;
     }
 
     private void FaceMovementDirection(Vector3 movement, float deltaTime)
@@ -79,5 +71,5 @@ public class PlayerFreeLookState : PlayerBaseState
             Quaternion.LookRotation(movement),
             deltaTime * GenericStateMachine.RotationDamping);
     }
-
 }
+

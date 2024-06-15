@@ -14,6 +14,7 @@ public class EnemyStateMachine : StateMachine
     [field: SerializeField] public ForceReceiver ForceReciever { get; private set; }
 
     [field: SerializeField] public WeaponDamage Weapon { get; private set; }
+     [field: SerializeField] public Ragdoll ragdoll { get; private set; }
     [field: SerializeField] public int AttackDamage { get; private set; }
     [field: SerializeField] public float AttackRange { get; private set; }
     [field: SerializeField] public HealthSystem Health { get; private set; }

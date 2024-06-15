@@ -5,20 +5,26 @@ using UnityEngine;
 public class PlayerHealth : MonoBehaviour
 {
     [SerializeField] private int maxHealth = 100;
+    public int MaxHealth => maxHealth;
 
-    private int PlayerFinalHealth;
+    private int currentHealth;
+    public int CurrentHealth => currentHealth;
+
+    public delegate void HealthChanged(int currentHealth);
+    public event HealthChanged OnHealthChanged;
 
     private void Start()
     {
-        PlayerFinalHealth = maxHealth;
+        currentHealth = maxHealth;
     }
 
     public void DealDamage(int damage)
     {
-        if (PlayerFinalHealth == 0) { return; }
+        if (currentHealth == 0) { return; }
 
-        PlayerFinalHealth = Mathf.Max(PlayerFinalHealth - damage, 0);
+        currentHealth = Mathf.Max(currentHealth - damage, 0);
+        OnHealthChanged?.Invoke(currentHealth);
 
-        Debug.Log(PlayerFinalHealth);
+        Debug.Log(currentHealth);
     }
 }

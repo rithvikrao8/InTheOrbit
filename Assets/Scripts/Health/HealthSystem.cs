@@ -9,8 +9,11 @@ public class HealthSystem : MonoBehaviour
     // Start is called before the first frame update
     private int health;
     public event Action OnDie;
-
     public event Action OnTakeDamage;
+
+    public int CurrentHealth => health;
+    public int MaxHealth => maxHealth; // Renamed property to avoid conflict
+
     void Start()
     {
         health = maxHealth;
@@ -20,9 +23,7 @@ public class HealthSystem : MonoBehaviour
     {
         if (health == 0) { return; }
 
-
         health = Mathf.Max(health - damage, 0);
-
         OnTakeDamage?.Invoke();
         if (health == 0)
         {
@@ -31,6 +32,4 @@ public class HealthSystem : MonoBehaviour
 
         Debug.Log(health);
     }
-
-
 }

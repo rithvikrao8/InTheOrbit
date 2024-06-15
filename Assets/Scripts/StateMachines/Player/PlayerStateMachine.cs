@@ -9,19 +9,24 @@ public class PlayerStateMachine : GenericStateMachine
     [field: SerializeField] public Animator Animator { get; private set; }
     [field: SerializeField] public Targeter Targeter { get; private set; }
     [field: SerializeField] public ForceReceiver ForceReceiver { get; private set; }
-    [field: SerializeField] public float FreeLookMovementSpeed { get; private set; }
+    [field: SerializeField] public PlayerWeaponDamage Weapon1 { get; private set; }
+    [field: SerializeField] public PlayerWeaponDamage Weapon2 { get; private set; }
     [field: SerializeField] public HealthSystem Health { get; private set; }
     [field: SerializeField] public Ragdoll Ragdoll { get; private set; }
+    [field: SerializeField] public float FreeLookMovementSpeed { get; private set; }
     [field: SerializeField] public float TargetingMovementSpeed { get; private set; }
     [field: SerializeField] public float RotationDamping { get; private set; }
     [field: SerializeField] public Attack[] Attacks { get; private set; }
     public Transform MainCameraTransform { get; private set; }
+
     private void Start()
     {
         MainCameraTransform = Camera.main.transform;
-
-
         SwitchState(new PlayerFreeLookState(this));
+    }
+        public PlayerWeaponDamage GetActiveWeapon(bool isUsingWeapon1)
+    {
+        return isUsingWeapon1 ? Weapon1 : Weapon2;
     }
 
     private void OnEnable()
@@ -41,6 +46,4 @@ public class PlayerStateMachine : GenericStateMachine
     {
         SwitchState(new PlayerDeadState(this));
     }
-
 }
-

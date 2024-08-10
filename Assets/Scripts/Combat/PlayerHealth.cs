@@ -13,9 +13,17 @@ public class PlayerHealth : MonoBehaviour
     public delegate void HealthChanged(int currentHealth);
     public event HealthChanged OnHealthChanged;
 
+    private BarrierController barrierController;
+
     private void Start()
     {
         currentHealth = maxHealth;
+        barrierController = FindObjectOfType<BarrierController>();
+
+        if (barrierController == null)
+        {
+            Debug.LogError("BarrierController not found in the scene.");
+        }
     }
 
     public void DealDamage(int damage)
@@ -25,6 +33,20 @@ public class PlayerHealth : MonoBehaviour
         currentHealth = Mathf.Max(currentHealth - damage, 0);
         OnHealthChanged?.Invoke(currentHealth);
 
-        Debug.Log(currentHealth);
+        Debug.Log($"Player current health: {currentHealth}");
+
+        if (currentHealth == 0)
+        {
+            HandlePlayerDeath();
+        }
+    }
+
+    private void HandlePlayerDeath()
+    {
+        if (barrierController != null)
+        {
+            barrierController.ResetBarriers();
+        }
+        Debug.Log("Player died. Barriers have been reset.");
     }
 }

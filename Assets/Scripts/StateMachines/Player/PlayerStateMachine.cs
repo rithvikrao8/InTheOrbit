@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class PlayerStateMachine : GenericStateMachine
 {
-    [field: SerializeField] public InputReader InputReader { get; private set; }
+    public InputReader InputReader { get; private set; }
     [field: SerializeField] public CharacterController Controller { get; private set; }
     [field: SerializeField] public Animator Animator { get; private set; }
     [field: SerializeField] public Targeter Targeter { get; private set; }
@@ -21,10 +21,14 @@ public class PlayerStateMachine : GenericStateMachine
 
     private void Start()
     {
+        // Hardcoding the InputReader by getting it from the same GameObject
+        InputReader = GetComponent<InputReader>();
+
         MainCameraTransform = Camera.main.transform;
         SwitchState(new PlayerFreeLookState(this));
     }
-        public PlayerWeaponDamage GetActiveWeapon(bool isUsingWeapon1)
+
+    public PlayerWeaponDamage GetActiveWeapon(bool isUsingWeapon1)
     {
         return isUsingWeapon1 ? Weapon1 : Weapon2;
     }
@@ -34,14 +38,17 @@ public class PlayerStateMachine : GenericStateMachine
         Health.OnTakeDamage += HandleTakeDamage;
         Health.OnDie += HandleDie;
     }
+
     private void OnDisable()
     {
         Health.OnTakeDamage -= HandleTakeDamage;
     }
+
     private void HandleTakeDamage()
     {
         SwitchState(new PlayerImpactState(this));
     }
+
     private void HandleDie()
     {
         SwitchState(new PlayerDeadState(this));

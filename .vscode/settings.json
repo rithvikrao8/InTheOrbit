@@ -56,5 +56,5 @@
         "temp/": true,
         "Temp/": true
     },
-    "dotnet.defaultSolution": "InTheOrbit_New.sln"
+    "dotnet.defaultSolution": "InTheOrbit.sln"
 }
